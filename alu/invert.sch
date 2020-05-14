@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:computer-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -463,12 +462,12 @@ Text Label 10675 2500 3    50   ~ 0
 D_O0
 Entry Wire Line
 	10675 2825 10775 2925
-Wire Bus Line
-	1150 1225 10475 1225
-Wire Bus Line
-	1225 2925 10775 2925
 Text HLabel 1225 2925 0    50   Output ~ 0
 D_O[0..15]
 Text HLabel 1150 1225 0    50   Input ~ 0
 D_I[0..15]
+Wire Bus Line
+	1150 1225 10475 1225
+Wire Bus Line
+	1225 2925 10775 2925
 $EndSCHEMATC

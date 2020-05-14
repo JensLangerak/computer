@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:computer-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -343,11 +342,11 @@ Wire Wire Line
 	1550 5075 2075 5075
 Wire Wire Line
 	1000 2450 2075 2450
-Wire Bus Line
-	1150 1325 5025 1325
 Connection ~ 2075 2450
 Wire Wire Line
 	2075 2450 2075 2500
 Text Notes 675  2800 0    50   ~ 0
 TODO store flags, with control 
+Wire Bus Line
+	1150 1325 5025 1325
 $EndSCHEMATC
