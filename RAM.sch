@@ -1,0 +1,232 @@
+EESchema Schematic File Version 4
+LIBS:computer-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 6075 3000 925  775 
+U 5D367E7A
+F0 "MEMORY" 50
+F1 "memory.sch" 50
+F2 "A[0..15]" I L 6075 3175 50 
+F3 "D[0..15]" B L 6075 3625 50 
+F4 "~WE~" I R 7000 3200 50 
+F5 "~CE~" I R 7000 3425 50 
+F6 "~OE~" I R 7000 3650 50 
+$EndSheet
+Text HLabel 1275 1550 0    50   Input ~ 0
+A_BUS[0..15]
+Text HLabel 1275 1650 0    50   BiDi ~ 0
+D_BUS[0..15]
+Text HLabel 1250 2050 0    50   Input ~ 0
+~WE~
+Text HLabel 1250 2150 0    50   Input ~ 0
+~CE~
+Text HLabel 1250 2250 0    50   Input ~ 0
+~OE~
+Text HLabel 1275 925  0    50   Input ~ 0
+P[0..15]
+$Sheet
+S 2525 2925 1225 500 
+U 5D399D3F
+F0 "TRI STATE BUS CONNECTION" 50
+F1 "TRI_STATE_BUS_CONNECTION.sch" 50
+F2 "~ENALBE_OUTPUT~" I L 2525 3050 50 
+F3 "D_IN[0..15]" I R 3750 3350 50 
+F4 "D_OUT[0..15]" O L 2525 3350 50 
+$EndSheet
+$Sheet
+S 1550 850  1825 525 
+U 5D3B2113
+F0 "Programmable signal decoder" 50
+F1 "Programmable_signal_memory_decoder.sch" 50
+F2 "P[0..13]" I L 1550 925 50 
+F3 "A[0..15]" O R 3375 925 50 
+F4 "D[0..15]" O R 3375 1025 50 
+F5 "~OE~" O R 3375 1125 50 
+F6 "~WE~" O R 3375 1225 50 
+F7 "~CE~" O R 3375 1325 50 
+$EndSheet
+Wire Bus Line
+	1275 925  1550 925 
+$Sheet
+S 4175 850  1175 1175
+U 5D5653A3
+F0 "CONTROL SELECTOR" 50
+F1 "control_selector.sch" 50
+F2 "C_A[0..15]" I L 4175 1550 50 
+F3 "C_D[0..15]" I L 4175 1650 50 
+F4 "~C_WE~" I L 4175 1750 50 
+F5 "~C_CE~" I L 4175 1850 50 
+F6 "~C_OE~" I L 4175 1950 50 
+F7 "P_A[0..15]" I L 4175 925 50 
+F8 "P_D[0..15]" I L 4175 1025 50 
+F9 "~P_WE~" I L 4175 1125 50 
+F10 "~P_CE~" I L 4175 1225 50 
+F11 "~P_OE~" I L 4175 1325 50 
+F12 "A[0..15]" O R 5350 1150 50 
+F13 "D[0..15]" O R 5350 1250 50 
+F14 "SELECT_P" I R 5350 1950 50 
+F15 "~OE~" O R 5350 1375 50 
+F16 "~CE~" O R 5350 1475 50 
+F17 "~WE~" O R 5350 1575 50 
+$EndSheet
+Wire Bus Line
+	3375 925  4175 925 
+Wire Wire Line
+	3375 1125 4175 1125
+Wire Wire Line
+	3375 1225 4175 1225
+Wire Wire Line
+	4175 1325 3375 1325
+Wire Bus Line
+	3400 1025 4175 1025
+Wire Bus Line
+	1275 1550 4175 1550
+Wire Bus Line
+	4175 1650 1850 1650
+Wire Wire Line
+	1250 2250 4075 2250
+Wire Wire Line
+	4075 2250 4075 1950
+Wire Wire Line
+	4075 1950 4175 1950
+Wire Wire Line
+	4175 1850 3950 1850
+Wire Wire Line
+	3950 1850 3950 2150
+Wire Wire Line
+	3950 2150 1250 2150
+Wire Wire Line
+	1250 2050 3825 2050
+Wire Wire Line
+	3825 2050 3825 1750
+Wire Wire Line
+	3825 1750 4175 1750
+Wire Wire Line
+	5350 1575 7225 1575
+Wire Wire Line
+	7225 1575 7225 3200
+Wire Wire Line
+	7225 3200 7000 3200
+Wire Wire Line
+	7000 3425 7375 3425
+Wire Wire Line
+	7375 3425 7375 1475
+Wire Wire Line
+	7375 1475 5350 1475
+Wire Wire Line
+	5350 1375 7500 1375
+Wire Wire Line
+	7500 1375 7500 3650
+Wire Wire Line
+	7500 3650 7000 3650
+Wire Bus Line
+	5350 1250 5475 1250
+Wire Bus Line
+	5475 3625 6075 3625
+Wire Bus Line
+	6075 3175 5700 3175
+Wire Bus Line
+	5700 3175 5700 1150
+Wire Bus Line
+	5700 1150 5350 1150
+Wire Bus Line
+	3750 3350 5475 3350
+Wire Bus Line
+	5475 1250 5475 3350
+Connection ~ 5475 3350
+Wire Bus Line
+	5475 3350 5475 3625
+Wire Bus Line
+	2525 3350 1850 3350
+Wire Bus Line
+	1850 3350 1850 1650
+Connection ~ 1850 1650
+Wire Bus Line
+	1850 1650 1275 1650
+Text HLabel 1300 3050 0    50   Input ~ 0
+~ENABLE_OUTPUT~
+Wire Wire Line
+	1300 3050 2525 3050
+Wire Wire Line
+	5350 1950 5400 1950
+Wire Wire Line
+	1675 4875 1625 4875
+Wire Wire Line
+	1625 4875 1625 5225
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 5D8F38FB
+P 1875 4875
+AR Path="/5D8F38FB" Ref="SW?"  Part="1" 
+AR Path="/5D332E4E/5D8F38FB" Ref="SW?"  Part="1" 
+AR Path="/5D35D52D/5D8F38FB" Ref="SW?"  Part="1" 
+F 0 "SW?" H 1875 5160 50  0000 C CNN
+F 1 "SW_SPDT" H 1875 5069 50  0000 C CNN
+F 2 "" H 1875 4875 50  0001 C CNN
+F 3 "~" H 1875 4875 50  0001 C CNN
+	1    1875 4875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2075 4775 2325 4775
+Wire Wire Line
+	2075 4975 2125 4975
+$Comp
+L Device:R R?
+U 1 1 5D8F390B
+P 2325 4475
+AR Path="/5D8F390B" Ref="R?"  Part="1" 
+AR Path="/5D332E4E/5D8F390B" Ref="R?"  Part="1" 
+AR Path="/5D35D52D/5D8F390B" Ref="R?"  Part="1" 
+F 0 "R?" H 2395 4521 50  0000 L CNN
+F 1 "R" H 2395 4430 50  0000 L CNN
+F 2 "" V 2255 4475 50  0001 C CNN
+F 3 "~" H 2325 4475 50  0001 C CNN
+	1    2325 4475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2325 4325 2325 4225
+Wire Wire Line
+	2325 4775 2325 4625
+Connection ~ 2325 4775
+Wire Wire Line
+	2325 4775 5400 4775
+Wire Wire Line
+	5400 1950 5400 4775
+$Comp
+L power:VCC #PWR?
+U 1 1 5D8F7337
+P 1625 5225
+F 0 "#PWR?" H 1625 5075 50  0001 C CNN
+F 1 "VCC" H 1643 5398 50  0000 C CNN
+F 2 "" H 1625 5225 50  0001 C CNN
+F 3 "" H 1625 5225 50  0001 C CNN
+	1    1625 5225
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D8F795F
+P 2325 4225
+F 0 "#PWR?" H 2325 3975 50  0001 C CNN
+F 1 "GND" H 2330 4052 50  0000 C CNN
+F 2 "" H 2325 4225 50  0001 C CNN
+F 3 "" H 2325 4225 50  0001 C CNN
+	1    2325 4225
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

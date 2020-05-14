@@ -1,0 +1,868 @@
+EESchema Schematic File Version 4
+LIBS:computer-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3050 2450 3050 2700
+Wire Wire Line
+	3550 1750 3550 1950
+$Comp
+L power:VCC #PWR?
+U 1 1 5D35C474
+P 2850 1250
+AR Path="/5D35C474" Ref="#PWR?"  Part="1" 
+AR Path="/5D332E4E/5D35C474" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2850 1100 50  0001 C CNN
+F 1 "VCC" V 2868 1377 50  0000 L CNN
+F 2 "" H 2850 1250 50  0001 C CNN
+F 3 "" H 2850 1250 50  0001 C CNN
+	1    2850 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D35C47A
+P 3550 1350
+AR Path="/5D35C47A" Ref="#PWR?"  Part="1" 
+AR Path="/5D332E4E/5D35C47A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3550 1100 50  0001 C CNN
+F 1 "GND" V 3555 1222 50  0000 R CNN
+F 2 "" H 3550 1350 50  0001 C CNN
+F 3 "" H 3550 1350 50  0001 C CNN
+	1    3550 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D35C480
+P 2100 1500
+AR Path="/5D35C480" Ref="R?"  Part="1" 
+AR Path="/5D332E4E/5D35C480" Ref="R?"  Part="1" 
+F 0 "R?" H 2170 1546 50  0000 L CNN
+F 1 "1K" H 2170 1455 50  0000 L CNN
+F 2 "" V 2030 1500 50  0001 C CNN
+F 3 "~" H 2100 1500 50  0001 C CNN
+	1    2100 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D35C486
+P 2100 2100
+AR Path="/5D35C486" Ref="R?"  Part="1" 
+AR Path="/5D332E4E/5D35C486" Ref="R?"  Part="1" 
+F 0 "R?" H 2170 2146 50  0000 L CNN
+F 1 "100K" H 2170 2055 50  0000 L CNN
+F 2 "" V 2030 2100 50  0001 C CNN
+F 3 "~" H 2100 2100 50  0001 C CNN
+	1    2100 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5D35C48C
+P 3150 1350
+AR Path="/5D35C48C" Ref="C?"  Part="1" 
+AR Path="/5D332E4E/5D35C48C" Ref="C?"  Part="1" 
+F 0 "C?" H 3265 1396 50  0000 L CNN
+F 1 "0.01µF" H 3265 1305 50  0000 L CNN
+F 2 "" H 3150 1350 50  0001 C CNN
+F 3 "~" H 3150 1350 50  0001 C CNN
+	1    3150 1350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2850 1250 2850 1350
+Wire Wire Line
+	3000 1350 2850 1350
+Connection ~ 2850 1350
+Wire Wire Line
+	2850 1350 2850 1750
+Wire Wire Line
+	3300 1350 3550 1350
+$Comp
+L Device:CP1 C?
+U 1 1 5D35C497
+P 2100 2550
+AR Path="/5D35C497" Ref="C?"  Part="1" 
+AR Path="/5D332E4E/5D35C497" Ref="C?"  Part="1" 
+F 0 "C?" H 2215 2596 50  0000 L CNN
+F 1 "1µF" H 2215 2505 50  0000 L CNN
+F 2 "" H 2100 2550 50  0001 C CNN
+F 3 "~" H 2100 2550 50  0001 C CNN
+	1    2100 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1350 2100 1350
+Wire Wire Line
+	2100 1650 2100 1950
+Wire Wire Line
+	2550 1950 2100 1950
+Connection ~ 2100 1950
+Wire Wire Line
+	2550 2150 2450 2150
+Wire Wire Line
+	2450 2150 2450 2250
+Wire Wire Line
+	2450 2250 2550 2250
+Wire Wire Line
+	2450 2250 2100 2250
+Connection ~ 2450 2250
+Wire Wire Line
+	2100 2250 2100 2400
+Wire Wire Line
+	2100 2400 2100 2700
+Connection ~ 2100 2250
+Connection ~ 2100 2400
+Wire Wire Line
+	8700 1950 8700 2150
+$Comp
+L power:VCC #PWR?
+U 1 1 5D35C4AB
+P 8000 1450
+AR Path="/5D35C4AB" Ref="#PWR?"  Part="1" 
+AR Path="/5D332E4E/5D35C4AB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8000 1300 50  0001 C CNN
+F 1 "VCC" V 8018 1577 50  0000 L CNN
+F 2 "" H 8000 1450 50  0001 C CNN
+F 3 "" H 8000 1450 50  0001 C CNN
+	1    8000 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D35C4B1
+P 7250 1700
+AR Path="/5D35C4B1" Ref="R?"  Part="1" 
+AR Path="/5D332E4E/5D35C4B1" Ref="R?"  Part="1" 
+F 0 "R?" H 7320 1746 50  0000 L CNN
+F 1 "100M" H 7320 1655 50  0000 L CNN
+F 2 "" V 7180 1700 50  0001 C CNN
+F 3 "~" H 7250 1700 50  0001 C CNN
+	1    7250 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 1450 8000 1550
+Connection ~ 8000 1550
+Wire Wire Line
+	8000 1550 8000 1950
+Wire Wire Line
+	8000 1550 7250 1550
+Wire Wire Line
+	7250 1850 7250 2150
+Wire Wire Line
+	7700 2150 7250 2150
+Wire Wire Line
+	7250 2450 7700 2450
+Connection ~ 7250 2450
+Connection ~ 7250 2150
+Wire Wire Line
+	7250 2150 7250 2450
+Wire Wire Line
+	8700 2450 8800 2450
+Wire Wire Line
+	8000 1950 8200 1950
+Wire Wire Line
+	8200 1950 8700 1950
+Connection ~ 8200 1950
+Wire Wire Line
+	7700 2350 7750 2350
+Connection ~ 7700 2350
+$Comp
+L Timer:TLC555 U?
+U 1 1 5D35C4C7
+P 8200 2350
+AR Path="/5D35C4C7" Ref="U?"  Part="1" 
+AR Path="/5D332E4E/5D35C4C7" Ref="U?"  Part="1" 
+F 0 "U?" H 8200 2931 50  0000 C CNN
+F 1 "TLC555" H 8200 2840 50  0000 C CNN
+F 2 "" H 8250 2100 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tlc555.pdf" H 8850 1800 50  0001 C CNN
+	1    8200 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 2450 7250 2600
+Wire Wire Line
+	7250 2600 7250 2900
+Connection ~ 7250 2600
+$Comp
+L Device:CP1 C?
+U 1 1 5D35C4D0
+P 7250 2750
+AR Path="/5D35C4D0" Ref="C?"  Part="1" 
+AR Path="/5D332E4E/5D35C4D0" Ref="C?"  Part="1" 
+F 0 "C?" H 7365 2796 50  0000 L CNN
+F 1 "1µF" H 7365 2705 50  0000 L CNN
+F 2 "" H 7250 2750 50  0001 C CNN
+F 3 "~" H 7250 2750 50  0001 C CNN
+	1    7250 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 2450 8800 2550
+$Comp
+L Device:CP1 C?
+U 1 1 5D35C4D7
+P 8800 2700
+AR Path="/5D35C4D7" Ref="C?"  Part="1" 
+AR Path="/5D332E4E/5D35C4D7" Ref="C?"  Part="1" 
+F 0 "C?" H 8915 2746 50  0000 L CNN
+F 1 "0.01µF" H 8915 2655 50  0000 L CNN
+F 2 "" H 8800 2700 50  0001 C CNN
+F 3 "~" H 8800 2700 50  0001 C CNN
+	1    8800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D35C4DD
+P 3550 2500
+AR Path="/5D35C4DD" Ref="C?"  Part="1" 
+AR Path="/5D332E4E/5D35C4DD" Ref="C?"  Part="1" 
+F 0 "C?" H 3665 2546 50  0000 L CNN
+F 1 "0.01µF" H 3665 2455 50  0000 L CNN
+F 2 "" H 3588 2350 50  0001 C CNN
+F 3 "~" H 3550 2500 50  0001 C CNN
+	1    3550 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 1750 3550 1750
+Wire Wire Line
+	2850 1750 3050 1750
+Connection ~ 3050 1750
+$Comp
+L Timer:TLC555 U?
+U 1 1 5D35C4E6
+P 3050 2150
+AR Path="/5D35C4E6" Ref="U?"  Part="1" 
+AR Path="/5D332E4E/5D35C4E6" Ref="U?"  Part="1" 
+F 0 "U?" H 3050 2731 50  0000 C CNN
+F 1 "TLC555" H 3050 2640 50  0000 C CNN
+F 2 "" H 3100 1900 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tlc555.pdf" H 3700 1600 50  0001 C CNN
+	1    3050 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 2250 3550 2350
+Wire Wire Line
+	3550 2650 3550 2700
+Wire Wire Line
+	2100 2700 3050 2700
+Connection ~ 3050 2700
+Wire Wire Line
+	3050 2700 3550 2700
+Wire Wire Line
+	7250 2900 8200 2900
+Wire Wire Line
+	8200 2650 8200 2900
+Connection ~ 8200 2900
+Wire Wire Line
+	8200 2900 8800 2900
+$Comp
+L power:GND #PWR?
+U 1 1 5D35C4F5
+P 3050 2900
+AR Path="/5D35C4F5" Ref="#PWR?"  Part="1" 
+AR Path="/5D332E4E/5D35C4F5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3050 2650 50  0001 C CNN
+F 1 "GND" H 3055 2727 50  0000 C CNN
+F 2 "" H 3050 2900 50  0001 C CNN
+F 3 "" H 3050 2900 50  0001 C CNN
+	1    3050 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 2700 3050 2900
+Wire Wire Line
+	8800 2850 8800 2900
+Connection ~ 7250 2900
+$Comp
+L power:GND #PWR?
+U 1 1 5D35C4FE
+P 8200 3100
+AR Path="/5D35C4FE" Ref="#PWR?"  Part="1" 
+AR Path="/5D332E4E/5D35C4FE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8200 2850 50  0001 C CNN
+F 1 "GND" H 8205 2927 50  0000 C CNN
+F 2 "" H 8200 3100 50  0001 C CNN
+F 3 "" H 8200 3100 50  0001 C CNN
+	1    8200 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 2900 8200 3100
+Wire Wire Line
+	3550 2150 4000 2150
+Wire Wire Line
+	4000 2150 4000 2200
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5D35C507
+P 6700 2350
+AR Path="/5D35C507" Ref="SW?"  Part="1" 
+AR Path="/5D332E4E/5D35C507" Ref="SW?"  Part="1" 
+F 0 "SW?" H 6700 2635 50  0000 C CNN
+F 1 "SW_Push" H 6700 2544 50  0000 C CNN
+F 2 "" H 6700 2550 50  0001 C CNN
+F 3 "~" H 6700 2550 50  0001 C CNN
+	1    6700 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 2350 6500 2900
+Wire Wire Line
+	6500 2900 7250 2900
+$Comp
+L Device:R R?
+U 1 1 5D35C50F
+P 6950 1700
+AR Path="/5D35C50F" Ref="R?"  Part="1" 
+AR Path="/5D332E4E/5D35C50F" Ref="R?"  Part="1" 
+F 0 "R?" H 7020 1746 50  0000 L CNN
+F 1 "5K" H 7020 1655 50  0000 L CNN
+F 2 "" V 6880 1700 50  0001 C CNN
+F 3 "~" H 6950 1700 50  0001 C CNN
+	1    6950 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 1850 6950 2350
+Wire Wire Line
+	6900 2350 6950 2350
+Connection ~ 6950 2350
+Wire Wire Line
+	6950 2350 7700 2350
+Wire Wire Line
+	6950 1550 7250 1550
+Connection ~ 7250 1550
+Text Notes 6300 1700 0    50   ~ 0
+possible higher
+Text Notes 2000 2200 2    50   ~ 0
+TODO \nvariable resistor
+$Comp
+L Device:R R?
+U 1 1 5D35C51D
+P 4000 2350
+AR Path="/5D35C51D" Ref="R?"  Part="1" 
+AR Path="/5D332E4E/5D35C51D" Ref="R?"  Part="1" 
+F 0 "R?" H 3930 2304 50  0000 R CNN
+F 1 "220" H 3930 2395 50  0000 R CNN
+F 2 "" V 3930 2350 50  0001 C CNN
+F 3 "~" H 4000 2350 50  0001 C CNN
+	1    4000 2350
+	-1   0    0    1   
+$EndComp
+Text Notes 4250 2450 0    50   ~ 0
+Possible \n150
+Connection ~ 4000 2150
+$Comp
+L Device:LED_ALT D?
+U 1 1 5D35C525
+P 4000 2750
+AR Path="/5D35C525" Ref="D?"  Part="1" 
+AR Path="/5D332E4E/5D35C525" Ref="D?"  Part="1" 
+F 0 "D?" V 4039 2632 50  0000 R CNN
+F 1 "LED_ALT" V 3948 2632 50  0000 R CNN
+F 2 "" H 4000 2750 50  0001 C CNN
+F 3 "~" H 4000 2750 50  0001 C CNN
+	1    4000 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 2900 3550 2700
+Connection ~ 3550 2700
+Connection ~ 2100 2700
+Text Notes 4150 2950 0    50   ~ 0
+Yellow
+Wire Wire Line
+	4000 2600 4000 2500
+Wire Wire Line
+	4000 2900 3550 2900
+Text Label 4100 2150 0    50   ~ 0
+auto_clk_out
+Wire Wire Line
+	4000 2150 4650 2150
+$Comp
+L Device:R R?
+U 1 1 5D35C533
+P 9350 2500
+AR Path="/5D35C533" Ref="R?"  Part="1" 
+AR Path="/5D332E4E/5D35C533" Ref="R?"  Part="1" 
+F 0 "R?" H 9280 2454 50  0000 R CNN
+F 1 "220" H 9280 2545 50  0000 R CNN
+F 2 "" V 9280 2500 50  0001 C CNN
+F 3 "~" H 9350 2500 50  0001 C CNN
+	1    9350 2500
+	-1   0    0    1   
+$EndComp
+Text Notes 9600 2600 0    50   ~ 0
+Possible \n150
+$Comp
+L Device:LED_ALT D?
+U 1 1 5D35C53A
+P 9350 2900
+AR Path="/5D35C53A" Ref="D?"  Part="1" 
+AR Path="/5D332E4E/5D35C53A" Ref="D?"  Part="1" 
+F 0 "D?" V 9389 2782 50  0000 R CNN
+F 1 "LED_ALT" V 9298 2782 50  0000 R CNN
+F 2 "" H 9350 2900 50  0001 C CNN
+F 3 "~" H 9350 2900 50  0001 C CNN
+	1    9350 2900
+	0    -1   -1   0   
+$EndComp
+Text Notes 9500 3100 0    50   ~ 0
+Yellow
+Wire Wire Line
+	9350 2750 9350 2650
+Wire Wire Line
+	8800 3050 8800 2900
+Wire Wire Line
+	8800 3050 9350 3050
+Connection ~ 8800 2900
+Wire Wire Line
+	8700 2350 10200 2350
+Text Label 9650 2350 0    50   ~ 0
+man_clk_out
+$Comp
+L 74xx:74LS00 U?
+U 2 1 5D35C547
+P 3100 4650
+AR Path="/5D35C547" Ref="U?"  Part="1" 
+AR Path="/5D332E4E/5D35C547" Ref="U?"  Part="2" 
+F 0 "U?" H 3050 4750 50  0000 C CNN
+F 1 "74LS00" H 3100 4650 50  0000 C CNN
+F 2 "" H 3100 4650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 3100 4650 50  0001 C CNN
+	2    3100 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D35C54D
+P 1750 4700
+AR Path="/5D35C54D" Ref="#PWR?"  Part="1" 
+AR Path="/5D332E4E/5D35C54D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1750 4450 50  0001 C CNN
+F 1 "GND" H 1755 4527 50  0000 C CNN
+F 2 "" H 1750 4700 50  0001 C CNN
+F 3 "" H 1750 4700 50  0001 C CNN
+	1    1750 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 4350 1750 4350
+Wire Wire Line
+	1750 4350 1750 4700
+$Comp
+L power:VCC #PWR?
+U 1 1 5D35C555
+P 2550 3600
+AR Path="/5D35C555" Ref="#PWR?"  Part="1" 
+AR Path="/5D332E4E/5D35C555" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2550 3450 50  0001 C CNN
+F 1 "VCC" H 2567 3773 50  0000 C CNN
+F 2 "" H 2550 3600 50  0001 C CNN
+F 3 "" H 2550 3600 50  0001 C CNN
+	1    2550 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 5D35C55B
+P 2000 4350
+AR Path="/5D35C55B" Ref="SW?"  Part="1" 
+AR Path="/5D332E4E/5D35C55B" Ref="SW?"  Part="1" 
+F 0 "SW?" H 2000 4635 50  0000 C CNN
+F 1 "SW_SPDT" H 2000 4544 50  0000 C CNN
+F 2 "" H 2000 4350 50  0001 C CNN
+F 3 "~" H 2000 4350 50  0001 C CNN
+	1    2000 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 4250 2450 4250
+Wire Wire Line
+	2200 4450 2250 4450
+Wire Wire Line
+	2250 4450 2250 4100
+Connection ~ 2250 4450
+$Comp
+L Device:R R?
+U 1 1 5D35C565
+P 2250 3950
+AR Path="/5D35C565" Ref="R?"  Part="1" 
+AR Path="/5D332E4E/5D35C565" Ref="R?"  Part="1" 
+F 0 "R?" H 2320 3996 50  0000 L CNN
+F 1 "R" H 2320 3905 50  0000 L CNN
+F 2 "" V 2180 3950 50  0001 C CNN
+F 3 "~" H 2250 3950 50  0001 C CNN
+	1    2250 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D35C56B
+P 2450 3950
+AR Path="/5D35C56B" Ref="R?"  Part="1" 
+AR Path="/5D332E4E/5D35C56B" Ref="R?"  Part="1" 
+F 0 "R?" H 2520 3996 50  0000 L CNN
+F 1 "R" H 2520 3905 50  0000 L CNN
+F 2 "" V 2380 3950 50  0001 C CNN
+F 3 "~" H 2450 3950 50  0001 C CNN
+	1    2450 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 3800 2250 3700
+Wire Wire Line
+	2250 3700 2450 3700
+Wire Wire Line
+	2550 3700 2550 3600
+Wire Wire Line
+	2450 3800 2450 3700
+Connection ~ 2450 3700
+Wire Wire Line
+	2450 3700 2550 3700
+Wire Wire Line
+	2250 4450 2650 4450
+Wire Wire Line
+	2450 4250 2450 4100
+Connection ~ 2450 4250
+Wire Wire Line
+	2650 4450 2650 4750
+Wire Wire Line
+	2650 4750 2800 4750
+Wire Wire Line
+	2650 4250 2650 3950
+Wire Wire Line
+	2650 3950 2800 3950
+Wire Wire Line
+	2450 4250 2650 4250
+Wire Wire Line
+	2800 4550 2800 4450
+Wire Wire Line
+	2800 4150 2800 4250
+Wire Wire Line
+	3400 4650 3400 4450
+Wire Wire Line
+	3400 4450 2800 4250
+$Comp
+L 74xx:74LS00 U?
+U 1 1 5D35C583
+P 3100 4050
+AR Path="/5D35C583" Ref="U?"  Part="1" 
+AR Path="/5D332E4E/5D35C583" Ref="U?"  Part="1" 
+F 0 "U?" H 3050 4150 50  0000 C CNN
+F 1 "74LS00" H 3100 4050 50  0000 C CNN
+F 2 "" H 3100 4050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 3100 4050 50  0001 C CNN
+	1    3100 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 4050 3400 4250
+Wire Wire Line
+	3400 4250 2800 4450
+Connection ~ 3400 4050
+Connection ~ 3400 4650
+$Comp
+L Device:R R?
+U 1 1 5D35C58D
+P 3550 4950
+AR Path="/5D35C58D" Ref="R?"  Part="1" 
+AR Path="/5D332E4E/5D35C58D" Ref="R?"  Part="1" 
+F 0 "R?" H 3620 4996 50  0000 L CNN
+F 1 "R" H 3620 4905 50  0000 L CNN
+F 2 "" V 3480 4950 50  0001 C CNN
+F 3 "~" H 3550 4950 50  0001 C CNN
+	1    3550 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D35C593
+P 3750 4950
+AR Path="/5D35C593" Ref="R?"  Part="1" 
+AR Path="/5D332E4E/5D35C593" Ref="R?"  Part="1" 
+F 0 "R?" H 3820 4996 50  0000 L CNN
+F 1 "R" H 3820 4905 50  0000 L CNN
+F 2 "" V 3680 4950 50  0001 C CNN
+F 3 "~" H 3750 4950 50  0001 C CNN
+	1    3750 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_ALT D?
+U 1 1 5D35C599
+P 3750 5350
+AR Path="/5D35C599" Ref="D?"  Part="1" 
+AR Path="/5D332E4E/5D35C599" Ref="D?"  Part="1" 
+F 0 "D?" V 3789 5232 50  0000 R CNN
+F 1 "LED_ALT" V 3698 5232 50  0000 R CNN
+F 2 "" H 3750 5350 50  0001 C CNN
+F 3 "~" H 3750 5350 50  0001 C CNN
+	1    3750 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_ALT D?
+U 1 1 5D35C59F
+P 3550 5350
+AR Path="/5D35C59F" Ref="D?"  Part="1" 
+AR Path="/5D332E4E/5D35C59F" Ref="D?"  Part="1" 
+F 0 "D?" V 3600 5550 50  0000 R CNN
+F 1 "LED_ALT" V 3500 5750 50  0000 R CNN
+F 2 "" H 3550 5350 50  0001 C CNN
+F 3 "~" H 3550 5350 50  0001 C CNN
+	1    3550 5350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 5200 3550 5100
+Wire Wire Line
+	3750 5100 3750 5200
+Wire Wire Line
+	3550 4650 3550 4800
+Connection ~ 3550 4650
+Wire Wire Line
+	3400 4050 3750 4050
+Wire Wire Line
+	3750 4050 3750 4800
+Connection ~ 3750 4050
+$Comp
+L power:GND #PWR?
+U 1 1 5D35C5AC
+P 4150 6300
+AR Path="/5D35C5AC" Ref="#PWR?"  Part="1" 
+AR Path="/5D332E4E/5D35C5AC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4150 6050 50  0001 C CNN
+F 1 "GND" H 4155 6127 50  0000 C CNN
+F 2 "" H 4150 6300 50  0001 C CNN
+F 3 "" H 4150 6300 50  0001 C CNN
+	1    4150 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 6100 4150 6300
+Wire Wire Line
+	3400 4650 3550 4650
+Wire Wire Line
+	3550 4650 4900 4650
+Wire Wire Line
+	3750 4050 4900 4050
+Text Label 3500 4050 0    50   ~ 0
+select_man
+Text Label 3500 4650 0    50   ~ 0
+select_auto
+$Comp
+L 74xx:74LS08 U?
+U 1 1 5D35C5B8
+P 5200 3950
+AR Path="/5D35C5B8" Ref="U?"  Part="1" 
+AR Path="/5D332E4E/5D35C5B8" Ref="U?"  Part="1" 
+F 0 "U?" H 5200 4275 50  0000 C CNN
+F 1 "74LS08" H 5200 4184 50  0000 C CNN
+F 2 "" H 5200 3950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 5200 3950 50  0001 C CNN
+	1    5200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 U?
+U 2 1 5D35C5BE
+P 5200 4750
+AR Path="/5D35C5BE" Ref="U?"  Part="1" 
+AR Path="/5D332E4E/5D35C5BE" Ref="U?"  Part="2" 
+F 0 "U?" H 5200 5075 50  0000 C CNN
+F 1 "74LS08" H 5200 4984 50  0000 C CNN
+F 2 "" H 5200 4750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 5200 4750 50  0001 C CNN
+	2    5200 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 4850 4900 4850
+Text Label 4350 4850 0    50   ~ 0
+auto_clk_out
+Wire Wire Line
+	4250 3850 4900 3850
+Text Label 4350 3850 0    50   ~ 0
+man_clk_out
+$Comp
+L 74xx:74LS32 U?
+U 1 1 5D35C5C8
+P 6200 4350
+AR Path="/5D35C5C8" Ref="U?"  Part="1" 
+AR Path="/5D332E4E/5D35C5C8" Ref="U?"  Part="1" 
+F 0 "U?" H 6200 4675 50  0000 C CNN
+F 1 "74LS32" H 6200 4584 50  0000 C CNN
+F 2 "" H 6200 4350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 6200 4350 50  0001 C CNN
+	1    6200 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4750 5900 4750
+Wire Wire Line
+	5900 4750 5900 4450
+Wire Wire Line
+	5500 3950 5900 3950
+Wire Wire Line
+	5900 3950 5900 4250
+$Comp
+L 74xx:74LS08 U?
+U 3 1 5D35C5D2
+P 7000 4450
+AR Path="/5D35C5D2" Ref="U?"  Part="1" 
+AR Path="/5D332E4E/5D35C5D2" Ref="U?"  Part="3" 
+F 0 "U?" H 7000 4775 50  0000 C CNN
+F 1 "74LS08" H 7000 4684 50  0000 C CNN
+F 2 "" H 7000 4450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 7000 4450 50  0001 C CNN
+	3    7000 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 4350 6700 4350
+$Comp
+L 74xx:74LS04 U?
+U 1 1 5D35C5D9
+P 6200 5150
+AR Path="/5D35C5D9" Ref="U?"  Part="1" 
+AR Path="/5D332E4E/5D35C5D9" Ref="U?"  Part="1" 
+F 0 "U?" H 6200 5467 50  0000 C CNN
+F 1 "74LS04" H 6200 5376 50  0000 C CNN
+F 2 "" H 6200 5150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 6200 5150 50  0001 C CNN
+	1    6200 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 5150 6700 5150
+Wire Wire Line
+	6700 5150 6700 4550
+Wire Wire Line
+	4800 5150 5900 5150
+$Comp
+L Device:R R?
+U 1 1 5D35C5E3
+P 5350 5300
+AR Path="/5D35C5E3" Ref="R?"  Part="1" 
+AR Path="/5D332E4E/5D35C5E3" Ref="R?"  Part="1" 
+F 0 "R?" H 5420 5346 50  0000 L CNN
+F 1 "R" H 5420 5255 50  0000 L CNN
+F 2 "" V 5280 5300 50  0001 C CNN
+F 3 "~" H 5350 5300 50  0001 C CNN
+	1    5350 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_ALT D?
+U 1 1 5D35C5E9
+P 5350 5700
+AR Path="/5D35C5E9" Ref="D?"  Part="1" 
+AR Path="/5D332E4E/5D35C5E9" Ref="D?"  Part="1" 
+F 0 "D?" V 5389 5582 50  0000 R CNN
+F 1 "LED_ALT" V 5298 5582 50  0000 R CNN
+F 2 "" H 5350 5700 50  0001 C CNN
+F 3 "~" H 5350 5700 50  0001 C CNN
+	1    5350 5700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 5450 5350 5550
+Wire Wire Line
+	5350 5850 5350 6100
+Wire Wire Line
+	3550 5500 3550 6100
+Connection ~ 4150 6100
+Wire Wire Line
+	4150 6100 3750 6100
+Wire Wire Line
+	3750 5500 3750 6100
+Connection ~ 3750 6100
+Wire Wire Line
+	3750 6100 3550 6100
+$Comp
+L Device:R R?
+U 1 1 5D35C5F7
+P 7500 4700
+AR Path="/5D35C5F7" Ref="R?"  Part="1" 
+AR Path="/5D332E4E/5D35C5F7" Ref="R?"  Part="1" 
+F 0 "R?" H 7570 4746 50  0000 L CNN
+F 1 "R" H 7570 4655 50  0000 L CNN
+F 2 "" V 7430 4700 50  0001 C CNN
+F 3 "~" H 7500 4700 50  0001 C CNN
+	1    7500 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_ALT D?
+U 1 1 5D35C5FD
+P 7500 5100
+AR Path="/5D35C5FD" Ref="D?"  Part="1" 
+AR Path="/5D332E4E/5D35C5FD" Ref="D?"  Part="1" 
+F 0 "D?" V 7539 4982 50  0000 R CNN
+F 1 "LED_ALT" V 7448 4982 50  0000 R CNN
+F 2 "" H 7500 5100 50  0001 C CNN
+F 3 "~" H 7500 5100 50  0001 C CNN
+	1    7500 5100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7500 4850 7500 4950
+Wire Wire Line
+	7300 4450 7500 4450
+Wire Wire Line
+	7500 4450 7500 4550
+Wire Wire Line
+	7500 5250 7500 6100
+Wire Wire Line
+	4150 6100 5350 6100
+Connection ~ 5350 6100
+Wire Wire Line
+	5350 6100 7500 6100
+Wire Wire Line
+	7500 4450 8700 4450
+Connection ~ 7500 4450
+Wire Wire Line
+	7500 4450 7500 4200
+$Comp
+L 74xx:74LS04 U?
+U 2 1 5D35C60E
+P 7800 4200
+AR Path="/5D35C60E" Ref="U?"  Part="1" 
+AR Path="/5D332E4E/5D35C60E" Ref="U?"  Part="2" 
+F 0 "U?" H 7800 4517 50  0000 C CNN
+F 1 "74LS04" H 7800 4426 50  0000 C CNN
+F 2 "" H 7800 4200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 7800 4200 50  0001 C CNN
+	2    7800 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 4200 8700 4200
+Text HLabel 8700 4450 2    50   Output ~ 0
+CLK
+Text HLabel 8700 4200 2    50   Output ~ 0
+~CLK~
+Text HLabel 4800 5150 0    50   Input ~ 0
+HLT_CLK
+$EndSCHEMATC

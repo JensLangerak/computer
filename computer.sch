@@ -1,0 +1,139 @@
+EESchema Schematic File Version 4
+LIBS:computer-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 3900 1075 800  400 
+U 5D332E4E
+F0 "clock" 50
+F1 "clock.sch" 50
+F2 "CLK" O R 4700 1175 50 
+F3 "~CLK~" O R 4700 1375 50 
+F4 "HLT_CLK" I L 3900 1175 50 
+$EndSheet
+$Sheet
+S 6250 1775 1200 600 
+U 5D3716A7
+F0 "register-A" 50
+F1 "register/register.sch" 50
+F2 "~ENABLE_INPUT~" I R 7450 1875 50 
+F3 "CLK" I L 6250 1875 50 
+F4 "~ENALBE_OUTPUT~" I R 7450 2025 50 
+F5 "D[0..15]" B L 6250 2025 50 
+F6 "RD[0..15]" O R 7450 2275 50 
+$EndSheet
+$Sheet
+S 6250 2825 1200 600 
+U 5D737E0E
+F0 "register-B" 50
+F1 "register/register.sch" 50
+F2 "~ENABLE_INPUT~" I R 7450 2925 50 
+F3 "CLK" I L 6250 2925 50 
+F4 "~ENALBE_OUTPUT~" I R 7450 3075 50 
+F5 "D[0..15]" B L 6250 3075 50 
+F6 "RD[0..15]" O R 7450 3325 50 
+$EndSheet
+Wire Wire Line
+	4700 1375 4900 1375
+Wire Wire Line
+	4700 1175 5000 1175
+Wire Wire Line
+	5000 1175 5000 1875
+Wire Wire Line
+	6250 1875 5000 1875
+Connection ~ 5000 1875
+Wire Wire Line
+	5000 1875 5000 2925
+Wire Wire Line
+	6250 2925 5000 2925
+Connection ~ 5000 2925
+Wire Wire Line
+	5000 2925 5000 3475
+Wire Bus Line
+	6250 2025 5100 2025
+Wire Bus Line
+	5100 3075 6250 3075
+Wire Bus Line
+	5100 1175 5100 2025
+Connection ~ 5100 2025
+Wire Bus Line
+	5100 2025 5100 2625
+Connection ~ 5100 3075
+Wire Bus Line
+	5100 3075 5100 3475
+$Sheet
+S 8100 2175 1400 875 
+U 5D3352E4
+F0 "ALU" 50
+F1 "alu.sch" 50
+F2 "D_A[0..15]" I L 8100 2275 50 
+F3 "D_B[0..15]" I L 8100 2425 50 
+F4 "~ENALBE_OUTPUT~" I R 9500 2275 50 
+F5 "CARRY_OUT" O R 9500 2650 50 
+F6 "D_O[0..16]" O L 8100 2625 50 
+F7 "SUBTRACT" I R 9500 2425 50 
+F8 "ZF" O R 9500 2750 50 
+F9 "LTF" O R 9500 2850 50 
+$EndSheet
+Wire Bus Line
+	7450 2275 8100 2275
+Wire Bus Line
+	7450 3325 7550 3325
+Wire Bus Line
+	7550 3325 7550 2425
+Wire Bus Line
+	7550 2425 8100 2425
+Wire Bus Line
+	8100 2625 5100 2625
+Connection ~ 5100 2625
+Wire Bus Line
+	5100 2625 5100 3075
+$Sheet
+S 3525 1775 1200 600 
+U 5D35CB6B
+F0 "memory address" 50
+F1 "register/register.sch" 50
+F2 "~ENABLE_INPUT~" I L 3525 1875 50 
+F3 "CLK" I R 4725 1875 50 
+F4 "~ENALBE_OUTPUT~" I L 3525 2025 50 
+F5 "D[0..15]" B R 4725 2025 50 
+F6 "RD[0..15]" O L 3525 2300 50 
+$EndSheet
+Wire Wire Line
+	5000 1875 4725 1875
+Wire Bus Line
+	5100 2025 4725 2025
+$Sheet
+S 3575 2750 1100 775 
+U 5D35D52D
+F0 "RAM" 50
+F1 "RAM.sch" 50
+F2 "A_BUS[0..15]" I L 3575 2850 50 
+F3 "D_BUS[0..15]" B R 4675 3075 50 
+F4 "~WE~" I L 3575 3000 50 
+F5 "~CE~" I L 3575 3100 50 
+F6 "~OE~" I L 3575 3200 50 
+F7 "P[0..15]" I L 3575 3450 50 
+F8 "~ENABLE_OUTPUT~" I L 3575 3300 50 
+$EndSheet
+Wire Bus Line
+	5075 3075 4675 3075
+Wire Bus Line
+	3550 2300 3275 2300
+Wire Bus Line
+	3275 2300 3275 2850
+Wire Bus Line
+	3275 2850 3575 2850
+$EndSCHEMATC

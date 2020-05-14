@@ -1,0 +1,353 @@
+EESchema Schematic File Version 4
+LIBS:computer-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 1150 1325 0    50   Input ~ 0
+D[0..15]
+Wire Wire Line
+	4725 1425 4725 2500
+Wire Wire Line
+	4575 1425 4575 2500
+Wire Wire Line
+	4375 1425 4375 2500
+Wire Wire Line
+	4225 1425 4225 2500
+Wire Wire Line
+	4025 1425 4025 2500
+Wire Wire Line
+	3875 1425 3875 2500
+Wire Wire Line
+	3675 1425 3675 2500
+Text Label 4925 1525 3    50   ~ 0
+D0
+Text Label 4725 1525 3    50   ~ 0
+D1
+Text Label 4575 1525 3    50   ~ 0
+D2
+Text Label 4375 1525 3    50   ~ 0
+D3
+Text Label 4225 1525 3    50   ~ 0
+D4
+Text Label 4025 1525 3    50   ~ 0
+D5
+Text Label 3875 1525 3    50   ~ 0
+D6
+Text Label 3675 1525 3    50   ~ 0
+D7
+Text Label 3325 1525 3    50   ~ 0
+D8
+Text Label 3125 1525 3    50   ~ 0
+D9
+Text Label 2975 1525 3    50   ~ 0
+D10
+Text Label 2775 1525 3    50   ~ 0
+D11
+Text Label 2625 1525 3    50   ~ 0
+D12
+Text Label 2425 1525 3    50   ~ 0
+D13
+Text Label 2275 1525 3    50   ~ 0
+D14
+Text Label 2050 1525 3    50   ~ 0
+D15
+Text HLabel 975  2625 0    50   Output ~ 0
+ZF
+Text HLabel 975  2450 0    50   Output ~ 0
+LTF
+$Comp
+L 74xx:74LS02 U?
+U 1 1 5DC69668
+P 4825 2800
+F 0 "U?" V 4775 2725 50  0000 L CNN
+F 1 "74LS02" V 4850 2650 50  0000 L CNN
+F 2 "" H 4825 2800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 4825 2800 50  0001 C CNN
+	1    4825 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS02 U?
+U 2 1 5DC6DF23
+P 4475 2800
+F 0 "U?" V 4425 2725 50  0000 L CNN
+F 1 "74LS02" V 4500 2650 50  0000 L CNN
+F 2 "" H 4475 2800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 4475 2800 50  0001 C CNN
+	2    4475 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS02 U?
+U 3 1 5DC736B8
+P 4125 2800
+F 0 "U?" V 4075 2725 50  0000 L CNN
+F 1 "74LS02" V 4150 2650 50  0000 L CNN
+F 2 "" H 4125 2800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 4125 2800 50  0001 C CNN
+	3    4125 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS02 U?
+U 4 1 5DC74FF7
+P 3775 2800
+F 0 "U?" V 3725 2725 50  0000 L CNN
+F 1 "74LS02" V 3800 2650 50  0000 L CNN
+F 2 "" H 3775 2800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 3775 2800 50  0001 C CNN
+	4    3775 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS02 U?
+U 1 1 5DC8718B
+P 3225 2800
+F 0 "U?" V 3175 2725 50  0000 L CNN
+F 1 "74LS02" V 3250 2650 50  0000 L CNN
+F 2 "" H 3225 2800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 3225 2800 50  0001 C CNN
+	1    3225 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS02 U?
+U 2 1 5DC87191
+P 2875 2800
+F 0 "U?" V 2825 2725 50  0000 L CNN
+F 1 "74LS02" V 2900 2650 50  0000 L CNN
+F 2 "" H 2875 2800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 2875 2800 50  0001 C CNN
+	2    2875 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS02 U?
+U 3 1 5DC87197
+P 2525 2800
+F 0 "U?" V 2475 2725 50  0000 L CNN
+F 1 "74LS02" V 2550 2650 50  0000 L CNN
+F 2 "" H 2525 2800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 2525 2800 50  0001 C CNN
+	3    2525 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS02 U?
+U 4 1 5DC8719D
+P 2175 2800
+F 0 "U?" V 2125 2725 50  0000 L CNN
+F 1 "74LS02" V 2200 2650 50  0000 L CNN
+F 2 "" H 2175 2800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 2175 2800 50  0001 C CNN
+	4    2175 2800
+	0    1    1    0   
+$EndComp
+Entry Wire Line
+	4825 1325 4725 1425
+Entry Wire Line
+	4925 1425 5025 1325
+Wire Wire Line
+	4925 1425 4925 2500
+Entry Wire Line
+	4475 1325 4375 1425
+Entry Wire Line
+	4575 1425 4675 1325
+Entry Wire Line
+	4125 1325 4025 1425
+Entry Wire Line
+	4225 1425 4325 1325
+Entry Wire Line
+	3775 1325 3675 1425
+Entry Wire Line
+	3875 1425 3975 1325
+Wire Wire Line
+	3125 1425 3125 2500
+Wire Wire Line
+	2975 1425 2975 2500
+Wire Wire Line
+	2775 1425 2775 2500
+Wire Wire Line
+	2625 1425 2625 2500
+Wire Wire Line
+	2425 1425 2425 2500
+Wire Wire Line
+	2275 1425 2275 2500
+Wire Wire Line
+	2075 1425 2075 2450
+Entry Wire Line
+	3225 1325 3125 1425
+Entry Wire Line
+	3325 1425 3425 1325
+Wire Wire Line
+	3325 1425 3325 2500
+Entry Wire Line
+	2875 1325 2775 1425
+Entry Wire Line
+	2975 1425 3075 1325
+Entry Wire Line
+	2525 1325 2425 1425
+Entry Wire Line
+	2625 1425 2725 1325
+Entry Wire Line
+	2175 1325 2075 1425
+Entry Wire Line
+	2275 1425 2375 1325
+$Comp
+L 74xx:74LS08 U?
+U 1 1 5DCF6175
+P 4650 3575
+F 0 "U?" V 4604 3763 50  0000 L CNN
+F 1 "74LS08" V 4695 3763 50  0000 L CNN
+F 2 "" H 4650 3575 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 4650 3575 50  0001 C CNN
+	1    4650 3575
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS08 U?
+U 2 1 5DCFAA87
+P 3975 3575
+F 0 "U?" V 3929 3763 50  0000 L CNN
+F 1 "74LS08" V 4020 3763 50  0000 L CNN
+F 2 "" H 3975 3575 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 3975 3575 50  0001 C CNN
+	2    3975 3575
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS08 U?
+U 3 1 5DCFD138
+P 3050 3575
+F 0 "U?" V 3004 3763 50  0000 L CNN
+F 1 "74LS08" V 3095 3763 50  0000 L CNN
+F 2 "" H 3050 3575 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 3050 3575 50  0001 C CNN
+	3    3050 3575
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS08 U?
+U 4 1 5DCFE532
+P 2350 3575
+F 0 "U?" V 2304 3763 50  0000 L CNN
+F 1 "74LS08" V 2395 3763 50  0000 L CNN
+F 2 "" H 2350 3575 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 2350 3575 50  0001 C CNN
+	4    2350 3575
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2175 3100 2175 3275
+Wire Wire Line
+	2175 3275 2250 3275
+Wire Wire Line
+	2450 3275 2525 3275
+Wire Wire Line
+	2525 3275 2525 3100
+Wire Wire Line
+	2875 3100 2875 3275
+Wire Wire Line
+	2875 3275 2950 3275
+Wire Wire Line
+	3150 3275 3225 3275
+Wire Wire Line
+	3225 3275 3225 3100
+Wire Wire Line
+	3775 3100 3775 3275
+Wire Wire Line
+	3775 3275 3875 3275
+Wire Wire Line
+	4075 3275 4125 3275
+Wire Wire Line
+	4125 3275 4125 3100
+Wire Wire Line
+	4475 3100 4475 3275
+Wire Wire Line
+	4475 3275 4550 3275
+Wire Wire Line
+	4750 3275 4825 3275
+Wire Wire Line
+	4825 3275 4825 3100
+$Comp
+L 74xx:74LS08 U?
+U 1 1 5DD0754E
+P 4325 4325
+F 0 "U?" V 4279 4513 50  0000 L CNN
+F 1 "74LS08" V 4370 4513 50  0000 L CNN
+F 2 "" H 4325 4325 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 4325 4325 50  0001 C CNN
+	1    4325 4325
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS08 U?
+U 2 1 5DD0C070
+P 2675 4325
+F 0 "U?" V 2629 4513 50  0000 L CNN
+F 1 "74LS08" V 2720 4513 50  0000 L CNN
+F 2 "" H 2675 4325 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 2675 4325 50  0001 C CNN
+	2    2675 4325
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS08 U?
+U 3 1 5DD0ED9A
+P 2375 5075
+F 0 "U?" V 2329 5263 50  0000 L CNN
+F 1 "74LS08" V 2420 5263 50  0000 L CNN
+F 2 "" H 2375 5075 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 2375 5075 50  0001 C CNN
+	3    2375 5075
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2350 3875 2575 3875
+Wire Wire Line
+	2575 3875 2575 4025
+Wire Wire Line
+	2775 4025 2775 3875
+Wire Wire Line
+	2775 3875 3050 3875
+Wire Wire Line
+	3975 3875 4225 3875
+Wire Wire Line
+	4225 3875 4225 4025
+Wire Wire Line
+	4650 3875 4425 3875
+Wire Wire Line
+	4425 3875 4425 4025
+Wire Wire Line
+	2675 4625 2675 4975
+Wire Wire Line
+	2675 5175 4325 5175
+Wire Wire Line
+	4325 5175 4325 4625
+Wire Wire Line
+	1000 2625 1550 2625
+Wire Wire Line
+	1550 2625 1550 5075
+Wire Wire Line
+	1550 5075 2075 5075
+Wire Wire Line
+	1000 2450 2075 2450
+Wire Bus Line
+	1150 1325 5025 1325
+Connection ~ 2075 2450
+Wire Wire Line
+	2075 2450 2075 2500
+Text Notes 675  2800 0    50   ~ 0
+TODO store flags, with control 
+$EndSCHEMATC
