@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 13
+Sheet 12 15
 Title ""
 Date ""
 Rev ""
@@ -356,10 +356,6 @@ Wire Wire Line
 	2275 4325 2275 4400
 Wire Wire Line
 	1725 4325 2275 4325
-Wire Bus Line
-	2125 6200 4975 6200
-Wire Bus Line
-	1925 2250 1925 3850
 Connection ~ 4075 4325
 Connection ~ 2275 4325
 Wire Wire Line
@@ -367,4 +363,8 @@ Wire Wire Line
 Connection ~ 2375 4325
 Wire Wire Line
 	2375 4325 4075 4325
+Wire Bus Line
+	2125 6200 4975 6200
+Wire Bus Line
+	1925 2250 1925 3850
 $EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 13
+Sheet 1 12
 Title ""
 Date ""
 Rev ""
@@ -115,19 +115,6 @@ Wire Wire Line
 	5000 1875 4725 1875
 Wire Bus Line
 	5100 2025 4725 2025
-$Sheet
-S 3575 2750 1100 775 
-U 5D35D52D
-F0 "RAM" 50
-F1 "RAM.sch" 50
-F2 "A_BUS[0..15]" I L 3575 2850 50 
-F3 "D_BUS[0..15]" B R 4675 3075 50 
-F4 "~WE~" I L 3575 3000 50 
-F5 "~CE~" I L 3575 3100 50 
-F6 "~OE~" I L 3575 3200 50 
-F7 "P[0..15]" I L 3575 3450 50 
-F8 "~ENABLE_OUTPUT~" I L 3575 3300 50 
-$EndSheet
 Wire Bus Line
 	5075 3075 4675 3075
 Wire Bus Line
@@ -136,4 +123,14 @@ Wire Bus Line
 	3275 2300 3275 2850
 Wire Bus Line
 	3275 2850 3575 2850
+$Sheet
+S 3575 2775 1100 625 
+U 5EEA4AC8
+F0 "RAM" 50
+F1 "memory/memory.sch" 50
+F2 "A[0..15]" I L 3575 2850 50 
+F3 "D[0..15]" B R 4675 3075 50 
+F4 "~BE~" I L 3575 2975 50 
+F5 "~R~-W" I L 3575 3075 50 
+$EndSheet
 $EndSCHEMATC

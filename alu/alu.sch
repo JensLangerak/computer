@@ -939,16 +939,33 @@ Wire Bus Line
 Connection ~ 2500 4225
 Text HLabel 1350 4500 0    50   Output ~ 0
 D_S[0..15]
-Wire Bus Line
-	2400 3250 9375 3250
-Wire Bus Line
-	1375 6150 7200 6150
+Text Label 6800 4575 1    50   ~ 0
+D_S6
+$Comp
+L Device:C C4
+U 1 1 5EDF58B1
+P 9225 6075
+F 0 "C4" V 8973 6075 50  0000 C CNN
+F 1 "0.1µF" V 9064 6075 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 9263 5925 50  0001 C CNN
+F 3 "~" H 9225 6075 50  0001 C CNN
+	1    9225 6075
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9075 5675 9075 6075
+Connection ~ 9075 5675
+Wire Wire Line
+	9375 6075 9375 5675
+Connection ~ 9375 5675
 Wire Bus Line
 	1700 1225 9150 1225
 Wire Bus Line
 	2200 950  10525 950 
 Wire Bus Line
+	2400 3250 9375 3250
+Wire Bus Line
+	1375 6150 7200 6150
+Wire Bus Line
 	2500 4225 9375 4225
-Text Label 6800 4575 1    50   ~ 0
-D_S6
 $EndSCHEMATC
