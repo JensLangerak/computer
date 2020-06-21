@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:alu_pcb-cache
+LIBS:program_counter_pcb-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 10
+Sheet 6 6
 Title ""
 Date ""
 Rev ""
@@ -27,7 +27,8 @@ AR Path="/5EE115FB/5EF022DA" Ref="J2"  Part="1"
 AR Path="/5EE11E3D/5EF022DA" Ref="J3"  Part="1" 
 AR Path="/5EE5702D/5EF022DA" Ref="J3"  Part="1" 
 AR Path="/5EE573A3/5EF022DA" Ref="J4"  Part="1" 
-F 0 "J6" H 4350 2842 50  0000 C CNN
+AR Path="/5EF3E141/5EF022DA" Ref="J3"  Part="1" 
+F 0 "J3" H 4350 2842 50  0000 C CNN
 F 1 "Conn_02x08_Odd_Even" H 4350 2751 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 4300 2325 50  0001 C CNN
 F 3 "~" H 4300 2325 50  0001 C CNN

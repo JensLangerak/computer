@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 15
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -28,28 +28,12 @@ AR Path="/5D737E0E/5D39F66E" Ref="#PWR?"  Part="1"
 AR Path="/5D35BA95/5D39F66E" Ref="#PWR?"  Part="1" 
 AR Path="/5D35CB6B/5D39F66E" Ref="#PWR?"  Part="1" 
 AR Path="/5D35D52D/5D399D3F/5D39F66E" Ref="#PWR?"  Part="1" 
+AR Path="/5EE681E0/5EEF9D6A/5D39F66E" Ref="#PWR017"  Part="1" 
 F 0 "#PWR?" H 3775 4750 50  0001 C CNN
 F 1 "GND" H 3780 4827 50  0000 C CNN
 F 2 "" H 3775 5000 50  0001 C CNN
 F 3 "" H 3775 5000 50  0001 C CNN
 	1    3775 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR?
-U 1 1 5D39F675
-P 1975 4775
-AR Path="/5D3716A7/5D39F675" Ref="#PWR?"  Part="1" 
-AR Path="/5D371796/5D39F675" Ref="#PWR?"  Part="1" 
-AR Path="/5D737E0E/5D39F675" Ref="#PWR?"  Part="1" 
-AR Path="/5D35BA95/5D39F675" Ref="#PWR?"  Part="1" 
-AR Path="/5D35CB6B/5D39F675" Ref="#PWR?"  Part="1" 
-AR Path="/5D35D52D/5D399D3F/5D39F675" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1975 4625 50  0001 C CNN
-F 1 "VCC" H 1992 4948 50  0000 C CNN
-F 2 "" H 1975 4775 50  0001 C CNN
-F 3 "" H 1975 4775 50  0001 C CNN
-	1    1975 4775
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -62,6 +46,7 @@ AR Path="/5D737E0E/5D39F67B" Ref="#PWR?"  Part="1"
 AR Path="/5D35BA95/5D39F67B" Ref="#PWR?"  Part="1" 
 AR Path="/5D35CB6B/5D39F67B" Ref="#PWR?"  Part="1" 
 AR Path="/5D35D52D/5D399D3F/5D39F67B" Ref="#PWR?"  Part="1" 
+AR Path="/5EE681E0/5EEF9D6A/5D39F67B" Ref="#PWR016"  Part="1" 
 F 0 "#PWR?" H 3575 4650 50  0001 C CNN
 F 1 "VCC" H 3592 4973 50  0000 C CNN
 F 2 "" H 3575 4800 50  0001 C CNN
@@ -217,23 +202,6 @@ Text Label 2775 5775 3    50   ~ 0
 D_OUT13
 Text Label 2675 5775 3    50   ~ 0
 D_OUT14
-$Comp
-L power:GND #PWR?
-U 1 1 5D3A4456
-P 5375 5000
-AR Path="/5D3716A7/5D3A4456" Ref="#PWR?"  Part="1" 
-AR Path="/5D371796/5D3A4456" Ref="#PWR?"  Part="1" 
-AR Path="/5D737E0E/5D3A4456" Ref="#PWR?"  Part="1" 
-AR Path="/5D35BA95/5D3A4456" Ref="#PWR?"  Part="1" 
-AR Path="/5D35CB6B/5D3A4456" Ref="#PWR?"  Part="1" 
-AR Path="/5D35D52D/5D399D3F/5D3A4456" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5375 4750 50  0001 C CNN
-F 1 "GND" H 5380 4827 50  0000 C CNN
-F 2 "" H 5375 5000 50  0001 C CNN
-F 3 "" H 5375 5000 50  0001 C CNN
-	1    5375 5000
-	1    0    0    -1  
-$EndComp
 Text Label 2575 5775 3    50   ~ 0
 D_OUT15
 Text HLabel 2125 6200 0    50   Output ~ 0
@@ -254,7 +222,7 @@ U 1 1 5EC004DA
 P 4575 4900
 F 0 "U?" V 4529 5744 50  0000 L CNN
 F 1 "74LS244" V 4620 5744 50  0000 L CNN
-F 2 "" H 4575 4900 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_LongPads" H 4575 4900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS244" H 4575 4900 50  0001 C CNN
 	1    4575 4900
 	0    1    1    0   
@@ -263,25 +231,14 @@ Wire Wire Line
 	4975 5400 4975 6100
 Wire Wire Line
 	5075 5400 5075 6100
-$Comp
-L 74xx:74LS244 U?
-U 1 1 5EC03675
-P 2775 4900
-F 0 "U?" V 2725 3975 50  0000 L CNN
-F 1 "74LS244" V 2825 3750 50  0000 L CNN
-F 2 "" H 2775 4900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS244" H 2775 4900 50  0001 C CNN
-	1    2775 4900
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	1975 4900 1975 4775
+	1975 4900 1975 5025
 Wire Wire Line
 	3575 4900 3575 4800
 Wire Wire Line
 	3775 5000 3775 4900
 Wire Wire Line
-	5375 5000 5375 4900
+	5375 4775 5375 4900
 Wire Wire Line
 	2025 3950 2575 3950
 Wire Wire Line
@@ -363,6 +320,39 @@ Wire Wire Line
 Connection ~ 2375 4325
 Wire Wire Line
 	2375 4325 4075 4325
+$Comp
+L 74xx:74LS244 U?
+U 1 1 5EC03675
+P 2775 4900
+F 0 "U?" V 2725 3975 50  0000 L CNN
+F 1 "74LS244" V 2825 3750 50  0000 L CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_LongPads" H 2775 4900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS244" H 2775 4900 50  0001 C CNN
+	1    2775 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EE83C06
+P 1975 5025
+F 0 "#PWR?" H 1975 4775 50  0001 C CNN
+F 1 "GND" H 1980 4852 50  0000 C CNN
+F 2 "" H 1975 5025 50  0001 C CNN
+F 3 "" H 1975 5025 50  0001 C CNN
+	1    1975 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5EE85163
+P 5375 4775
+F 0 "#PWR?" H 5375 4625 50  0001 C CNN
+F 1 "VCC" H 5392 4948 50  0000 C CNN
+F 2 "" H 5375 4775 50  0001 C CNN
+F 3 "" H 5375 4775 50  0001 C CNN
+	1    5375 4775
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	2125 6200 4975 6200
 Wire Bus Line

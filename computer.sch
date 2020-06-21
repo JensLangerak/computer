@@ -50,8 +50,6 @@ Wire Wire Line
 Wire Wire Line
 	4700 1175 5000 1175
 Wire Wire Line
-	5000 1175 5000 1875
-Wire Wire Line
 	6250 1875 5000 1875
 Connection ~ 5000 1875
 Wire Wire Line
@@ -65,8 +63,6 @@ Wire Bus Line
 	6250 2025 5100 2025
 Wire Bus Line
 	5100 3075 6250 3075
-Wire Bus Line
-	5100 1175 5100 2025
 Connection ~ 5100 2025
 Wire Bus Line
 	5100 2025 5100 2625
@@ -133,4 +129,27 @@ F3 "D[0..15]" B R 4675 3075 50
 F4 "~BE~" I L 3575 2975 50 
 F5 "~R~-W" I L 3575 3075 50 
 $EndSheet
+$Sheet
+S 6250 975  850  550 
+U 5EEFDD90
+F0 "program counter" 50
+F1 "program_counter/program_counter.sch" 50
+F2 "BUS[0..15]" B L 6250 1100 50 
+F3 "CLK" I L 6250 1300 50 
+F4 "~RESET~" I R 7100 1200 50 
+F5 "~LOAD~" I R 7100 1300 50 
+F6 "COUNT" I R 7100 1400 50 
+F7 "~EO~" I R 7100 1100 50 
+$EndSheet
+Wire Bus Line
+	6250 1100 5100 1100
+Wire Bus Line
+	5100 1100 5100 2025
+Wire Wire Line
+	6250 1300 5000 1300
+Wire Wire Line
+	5000 1175 5000 1300
+Connection ~ 5000 1300
+Wire Wire Line
+	5000 1300 5000 1875
 $EndSCHEMATC
