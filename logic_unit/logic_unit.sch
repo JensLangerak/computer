@@ -1,0 +1,279 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 2725 1600 1000 325 
+U 5F2E31C3
+F0 "AND" 50
+F1 "AND.sch" 50
+F2 "D_B[0..15]" I L 2725 1850 50 
+F3 "D_A[0..15]" I L 2725 1675 50 
+F4 "D_O[0..15]" O R 3725 1775 50 
+$EndSheet
+$Sheet
+S 2725 2225 1000 325 
+U 5F35ADA4
+F0 "OR" 50
+F1 "OR.sch" 50
+F2 "D_B[0..15]" I L 2725 2475 50 
+F3 "D_A[0..15]" I L 2725 2300 50 
+F4 "D_O[0..15]" O R 3725 2400 50 
+$EndSheet
+$Sheet
+S 2725 2825 1000 325 
+U 5F3B3AEB
+F0 "XOR" 50
+F1 "XOR.sch" 50
+F2 "D_B[0..15]" I L 2725 3075 50 
+F3 "D_A[0..15]" I L 2725 2900 50 
+F4 "D_O[0..15]" O R 3725 3000 50 
+$EndSheet
+$Sheet
+S 2725 3425 1000 175 
+U 5F3EC2E5
+F0 "NOT" 50
+F1 "NOT.sch" 50
+F2 "D_A[0..15]" I L 2725 3500 50 
+F3 "D_O[0..15]" O R 3725 3500 50 
+$EndSheet
+Text HLabel 1850 1300 0    50   Input ~ 0
+D_A[0..15]
+Wire Bus Line
+	1850 1300 2050 1300
+Wire Bus Line
+	2050 3500 2725 3500
+Wire Bus Line
+	2725 2900 2050 2900
+Connection ~ 2050 2900
+Wire Bus Line
+	2050 2900 2050 3500
+Wire Bus Line
+	2725 2300 2050 2300
+Connection ~ 2050 2300
+Wire Bus Line
+	2050 2300 2050 2900
+Wire Bus Line
+	2725 1675 2050 1675
+Wire Bus Line
+	2050 1300 2050 1675
+Connection ~ 2050 1675
+Wire Bus Line
+	2050 1675 2050 2300
+Text HLabel 1850 1150 0    50   Input ~ 0
+D_B[0..15]
+Wire Bus Line
+	1850 1150 2250 1150
+Wire Bus Line
+	2250 1150 2250 1850
+Wire Bus Line
+	2250 3075 2725 3075
+Wire Bus Line
+	2725 2475 2250 2475
+Connection ~ 2250 2475
+Wire Bus Line
+	2250 2475 2250 3075
+Wire Bus Line
+	2725 1850 2250 1850
+Connection ~ 2250 1850
+Wire Bus Line
+	2250 1850 2250 2475
+Text Label 3775 1775 0    50   ~ 0
+D_AND[0..15]
+Text Label 3775 2400 0    50   ~ 0
+D_OR[0..15]
+Wire Bus Line
+	3725 2400 4250 2400
+Wire Bus Line
+	3725 3000 4350 3000
+Text Label 3775 3500 0    50   ~ 0
+D_NOT[0..15]
+Text Label 3775 3000 0    50   ~ 0
+D_XOR[0..15]
+$Sheet
+S 4925 1725 1000 400 
+U 5F41C486
+F0 "BUS MULTIPLEXER" 50
+F1 "bus_multiplexer.sch" 50
+F2 "D_O[0..15]" O R 5925 1775 50 
+F3 "S1" I R 5925 2075 50 
+F4 "S0" I R 5925 1975 50 
+F5 "D_D[0..15]" I L 4925 2075 50 
+F6 "D_C[0..15]" I L 4925 1975 50 
+F7 "D_B[0..15]" I L 4925 1875 50 
+F8 "D_A[0..15]" I L 4925 1775 50 
+$EndSheet
+Wire Bus Line
+	3725 1775 4925 1775
+Wire Bus Line
+	4250 2400 4250 1875
+Wire Bus Line
+	4250 1875 4925 1875
+Wire Bus Line
+	4350 3000 4350 1975
+Wire Bus Line
+	4350 1975 4925 1975
+Wire Bus Line
+	4925 2075 4450 2075
+Wire Bus Line
+	4450 2075 4450 3500
+Wire Bus Line
+	3725 3500 4450 3500
+Wire Wire Line
+	5925 1975 6100 1975
+Text HLabel 6100 1975 2    50   Input ~ 0
+S0
+Wire Wire Line
+	6100 2075 5925 2075
+Text HLabel 6100 2075 2    50   Input ~ 0
+S1
+$Sheet
+S 6775 1700 525  175 
+U 5F633F15
+F0 "LEDS" 50
+F1 "../bus_to_leds.sch" 50
+F2 "D[0..15]" I L 6775 1775 50 
+$EndSheet
+Wire Bus Line
+	6775 1775 6500 1775
+$Sheet
+S 6775 2175 1125 250 
+U 5F6363FD
+F0 "TRI STATE BUS CONN" 50
+F1 "../TRI_STATE_BUS_CONNECTION.sch" 50
+F2 "~ENALBE_OUTPUT~" I L 6775 2350 50 
+F3 "D_OUT[0..15]" O R 7900 2225 50 
+F4 "D_IN[0..15]" I L 6775 2225 50 
+$EndSheet
+Wire Bus Line
+	6500 1775 6500 2225
+Wire Bus Line
+	6500 2225 6775 2225
+Connection ~ 6500 1775
+Wire Bus Line
+	6500 1775 5925 1775
+Text Label 6050 1775 0    50   ~ 0
+D_O[0..15]
+Wire Bus Line
+	7900 2225 8475 2225
+Text HLabel 8475 2225 2    50   Output ~ 0
+D_OUT[0..15]
+Text Label 7950 2225 0    50   ~ 0
+D_OUT[0..15]
+$Comp
+L Device:C C1
+U 1 1 5F637C21
+P 2425 4950
+F 0 "C1" H 2540 4996 50  0000 L CNN
+F 1 "0.1µF" H 2540 4905 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 2463 4800 50  0001 C CNN
+F 3 "~" H 2425 4950 50  0001 C CNN
+	1    2425 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5F63A4EB
+P 2875 4950
+F 0 "C2" H 2990 4996 50  0000 L CNN
+F 1 "0.1µF" H 2990 4905 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 2913 4800 50  0001 C CNN
+F 3 "~" H 2875 4950 50  0001 C CNN
+	1    2875 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2875 5100 2425 5100
+Wire Wire Line
+	2425 4800 2875 4800
+Wire Wire Line
+	2425 4800 2225 4800
+Connection ~ 2425 4800
+$Comp
+L power:VCC #PWR0101
+U 1 1 5F63B418
+P 2225 4800
+F 0 "#PWR0101" H 2225 4650 50  0001 C CNN
+F 1 "VCC" V 2243 4927 50  0000 L CNN
+F 2 "" H 2225 4800 50  0001 C CNN
+F 3 "" H 2225 4800 50  0001 C CNN
+	1    2225 4800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2425 5100 2225 5100
+Connection ~ 2425 5100
+$Comp
+L power:GND #PWR0102
+U 1 1 5F63BA5A
+P 2225 5100
+F 0 "#PWR0102" H 2225 4850 50  0001 C CNN
+F 1 "GND" V 2230 4972 50  0000 R CNN
+F 2 "" H 2225 5100 50  0001 C CNN
+F 3 "" H 2225 5100 50  0001 C CNN
+	1    2225 5100
+	0    1    1    0   
+$EndComp
+Text Notes 2425 4575 0    50   ~ 0
+25 x 74LSxx\n6-8 * 0.1µF
+$Comp
+L Device:C C3
+U 1 1 5F63F8F0
+P 3325 4950
+F 0 "C3" H 3440 4996 50  0000 L CNN
+F 1 "0.1µF" H 3440 4905 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 3363 4800 50  0001 C CNN
+F 3 "~" H 3325 4950 50  0001 C CNN
+	1    3325 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3325 5100 2875 5100
+Wire Wire Line
+	2875 4800 3325 4800
+$Comp
+L Device:C C4
+U 1 1 5F6403F6
+P 3775 4950
+F 0 "C4" H 3890 4996 50  0000 L CNN
+F 1 "0.1µF" H 3890 4905 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 3813 4800 50  0001 C CNN
+F 3 "~" H 3775 4950 50  0001 C CNN
+	1    3775 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3775 5100 3325 5100
+Wire Wire Line
+	3325 4800 3775 4800
+$Comp
+L Device:C C5
+U 1 1 5F640B48
+P 4225 4950
+F 0 "C5" H 4340 4996 50  0000 L CNN
+F 1 "0.5µF" H 4340 4905 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4263 4800 50  0001 C CNN
+F 3 "~" H 4225 4950 50  0001 C CNN
+	1    4225 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4225 5100 3775 5100
+Wire Wire Line
+	3775 4800 4225 4800
+Text HLabel 6500 2350 0    50   Output ~ 0
+~EO~
+Wire Wire Line
+	6500 2350 6775 2350
+$EndSCHEMATC
