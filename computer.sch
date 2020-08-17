@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 12
+Sheet 1 29
 Title ""
 Date ""
 Rev ""
@@ -57,8 +57,6 @@ Wire Wire Line
 Wire Wire Line
 	6250 2925 5000 2925
 Connection ~ 5000 2925
-Wire Wire Line
-	5000 2925 5000 3475
 Wire Bus Line
 	6250 2025 5100 2025
 Wire Bus Line
@@ -67,8 +65,6 @@ Connection ~ 5100 2025
 Wire Bus Line
 	5100 2025 5100 2625
 Connection ~ 5100 3075
-Wire Bus Line
-	5100 3075 5100 3475
 $Sheet
 S 8100 2175 1400 875 
 U 5D3352E4
@@ -84,11 +80,9 @@ F8 "ZF" O R 9500 2750 50
 F9 "LTF" O R 9500 2850 50 
 $EndSheet
 Wire Bus Line
-	7450 2275 8100 2275
+	7450 2275 7750 2275
 Wire Bus Line
 	7450 3325 7550 3325
-Wire Bus Line
-	7550 3325 7550 2425
 Wire Bus Line
 	7550 2425 8100 2425
 Wire Bus Line
@@ -152,4 +146,86 @@ Wire Wire Line
 Connection ~ 5000 1300
 Wire Wire Line
 	5000 1300 5000 1875
+$Sheet
+S 8050 3475 1400 450 
+U 5F3A84CD
+F0 "bitwise operator" 50
+F1 "bitwise_operator/bitwise_operator.sch" 50
+F2 "D_A[0..15]" I L 8050 3575 50 
+F3 "D_B[0..15]" I L 8050 3700 50 
+F4 "S0" I R 9450 3600 50 
+F5 "S1" I R 9450 3700 50 
+F6 "D_OUT[0..15]" O L 8050 3850 50 
+F7 "~EO~" O R 9450 3850 50 
+$EndSheet
+Wire Bus Line
+	8050 3700 7550 3700
+Wire Bus Line
+	7550 2425 7550 3325
+Connection ~ 7550 3325
+Wire Bus Line
+	7550 3325 7550 3700
+Wire Bus Line
+	8050 3575 7750 3575
+Wire Bus Line
+	7750 3575 7750 2275
+Connection ~ 7750 2275
+Wire Bus Line
+	7750 2275 8100 2275
+Wire Bus Line
+	8050 3850 5100 3850
+Wire Bus Line
+	5100 3075 5100 3850
+$Sheet
+S 6250 4275 900  300 
+U 5F3A94D5
+F0 "buttons" 50
+F1 "buttons/buttons.sch" 50
+F2 "Clear" I R 7150 4400 50 
+F3 "~EO~" I R 7150 4525 50 
+F4 "BUS[0..15]" B L 6250 4400 50 
+$EndSheet
+Wire Bus Line
+	5100 3850 5100 4400
+Wire Bus Line
+	5100 4400 6250 4400
+Connection ~ 5100 3850
+Wire Bus Line
+	5100 3850 5100 3825
+$Sheet
+S 3575 4550 1100 550 
+U 5F3AB933
+F0 "bit shifter" 50
+F1 "bit_shifter/bit_shifter.sch" 50
+F2 "D[0..15]" B R 4675 4650 50 
+F3 "S0" I L 3575 4600 50 
+F4 "S1" I L 3575 4700 50 
+F5 "CLK" I R 4675 4800 50 
+F6 "~CLR~" I L 3575 4950 50 
+F7 "~EO~" I L 3575 5050 50 
+$EndSheet
+Wire Bus Line
+	5100 4400 5100 4650
+Wire Bus Line
+	5100 4650 4675 4650
+Connection ~ 5100 4400
+Wire Wire Line
+	5000 4800 4675 4800
+Wire Wire Line
+	5000 2925 5000 4800
+Wire Bus Line
+	4675 3850 5100 3850
+$Sheet
+S 3875 3725 800  525 
+U 5F3B052B
+F0 "display" 50
+F1 "display/display.sch" 50
+F2 "D[0..15]" B R 4675 3850 50 
+F3 "A0" I L 3875 3825 50 
+F4 "CS" I L 3875 3900 50 
+F5 "RES" I L 3875 3975 50 
+F6 "R~W~" I L 3875 4050 50 
+F7 "E" I L 3875 4125 50 
+F8 "DI_~DO~" I L 3875 4200 50 
+$EndSheet
 $EndSCHEMATC

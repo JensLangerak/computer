@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:buttons_pcb-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -19,7 +20,7 @@ U 5F0705F7
 F0 "BUTTONS" 50
 F1 "buttons.sch" 50
 F2 "Clear" I L 4775 2675 50 
-F3 "~EO~" B L 4775 2575 50 
+F3 "~EO~" I L 4775 2575 50 
 F4 "BUS[0..15]" B R 5600 2575 50 
 $EndSheet
 $Sheet

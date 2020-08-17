@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:bitwise_operator_pcb-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -17,7 +18,7 @@ $Sheet
 S 4600 2925 1100 500 
 U 5F0D7DA0
 F0 "LOGIC UNIT" 50
-F1 "logic_unit.sch" 50
+F1 "bitwise_operator.sch" 50
 F2 "D_A[0..15]" I L 4600 3000 50 
 F3 "D_B[0..15]" I L 4600 3100 50 
 F4 "S0" I L 4600 3250 50 
