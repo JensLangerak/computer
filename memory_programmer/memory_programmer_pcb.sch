@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 3
 Title ""
 Date "lun. 30 mars 2015"
 Rev ""
@@ -180,38 +180,12 @@ Wire Notes Line
 Wire Notes Line
 	10700 1000 10700 500 
 $Sheet
-S 6500 2275 625  275 
-U 5EE115FB
-F0 "data out" 50
-F1 "../conn_bus.sch" 50
-F2 "D[0..15]" B L 6500 2350 50 
-$EndSheet
-$Sheet
-S 6500 1700 625  275 
-U 5EE11E3D
-F0 "address out" 50
-F1 "../conn_bus.sch" 50
-F2 "D[0..15]" B L 6500 1775 50 
-$EndSheet
-Wire Bus Line
-	5525 2775 5850 2775
-Wire Bus Line
-	5850 2775 5850 1775
-Wire Bus Line
-	5850 1775 6500 1775
-Wire Bus Line
-	5525 2925 6025 2925
-Wire Bus Line
-	6025 2925 6025 2350
-Wire Bus Line
-	6025 2350 6500 2350
-$Sheet
 S 5825 3925 750  525 
 U 5EE1C593
 F0 "memory" 50
 F1 "memory.sch" 50
-F2 "AD[0..15]" I R 6575 4050 50 
-F3 "D[0..15]" B R 6575 4275 50 
+F2 "AD[0..16]" I R 6575 4050 50 
+F3 "D[0..7]" B R 6575 4275 50 
 F4 "~WE~" I L 5825 4175 50 
 F5 "~CE~" I L 5825 4300 50 
 F6 "~OE~" I L 5825 4050 50 
@@ -222,52 +196,26 @@ Wire Wire Line
 	5525 3225 5625 3225
 Wire Wire Line
 	5525 3125 5700 3125
-$Comp
-L Connector_Generic:Conn_01x03 J1
-U 1 1 5EE16863
-P 6050 3225
-F 0 "J1" H 6130 3267 50  0000 L CNN
-F 1 "Conn_01x03" H 6130 3176 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6050 3225 50  0001 C CNN
-F 3 "~" H 6050 3225 50  0001 C CNN
-	1    6050 3225
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5825 4050 5700 4050
 Wire Wire Line
 	5700 4050 5700 3125
-Connection ~ 5700 3125
-Wire Wire Line
-	5700 3125 5850 3125
 Wire Wire Line
 	5625 3225 5625 4175
 Wire Wire Line
 	5625 4175 5825 4175
-Connection ~ 5625 3225
-Wire Wire Line
-	5625 3225 5850 3225
 Wire Wire Line
 	5825 4300 5550 4300
 Wire Wire Line
 	5550 4300 5550 3325
-Connection ~ 5550 3325
-Wire Wire Line
-	5550 3325 5850 3325
 Wire Bus Line
 	6575 4275 6850 4275
 Wire Bus Line
 	6850 4275 6850 2925
 Wire Bus Line
-	6850 2925 6025 2925
-Connection ~ 6025 2925
-Wire Bus Line
 	6575 4050 6675 4050
 Wire Bus Line
 	6675 4050 6675 2775
-Wire Bus Line
-	6675 2775 5850 2775
-Connection ~ 5850 2775
 $Comp
 L Device:LED_ALT D2
 U 1 1 5EE3CCFE
@@ -346,18 +294,6 @@ Wire Wire Line
 	4525 4650 4525 4975
 Wire Bus Line
 	1725 2800 4350 2800
-$Sheet
-S 4350 2625 1175 975 
-U 5EDF08FE
-F0 "signal decoder" 50
-F1 "programmable_signal_memory_decoder.sch" 50
-F2 "P[0..13]" I L 4350 2800 50 
-F3 "AD[0..15]" O R 5525 2775 50 
-F4 "D[0..15]" O R 5525 2925 50 
-F5 "~OE~" O R 5525 3125 50 
-F6 "~WE~" O R 5525 3225 50 
-F7 "~CE~" O R 5525 3325 50 
-$EndSheet
 Wire Wire Line
 	9300 2200 9300 3150
 Wire Wire Line
@@ -587,9 +523,137 @@ F 3 "~" H 9300 2200 50  0001 C CNN
 	1    9300 2200
 	0    -1   -1   0   
 $EndComp
-Wire Bus Line
-	1725 2800 1725 4550
 Wire Wire Line
 	9300 2100 9300 2200
 Connection ~ 9050 2000
+Wire Bus Line
+	5525 2925 6850 2925
+Wire Bus Line
+	5525 2775 6675 2775
+$Sheet
+S 4350 2625 1175 975 
+U 5EDF08FE
+F0 "signal decoder" 50
+F1 "programmable_signal_memory_decoder.sch" 50
+F2 "P[0..13]" I L 4350 2800 50 
+F3 "AD[0..16]" O R 5525 2775 50 
+F4 "D[0..7]" O R 5525 2925 50 
+F5 "~OE~" O R 5525 3125 50 
+F6 "~WE~" O R 5525 3225 50 
+F7 "~CE~" O R 5525 3325 50 
+$EndSheet
+$Comp
+L Device:C C1
+U 1 1 5F5AC9FC
+P 7350 5300
+F 0 "C1" H 7235 5254 50  0000 R CNN
+F 1 "0.1µF" H 7235 5345 50  0000 R CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 7388 5150 50  0001 C CNN
+F 3 "~" H 7350 5300 50  0001 C CNN
+	1    7350 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5F5ADA6D
+P 7775 5300
+F 0 "C2" H 7660 5254 50  0000 R CNN
+F 1 "0.1µF" H 7660 5345 50  0000 R CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 7813 5150 50  0001 C CNN
+F 3 "~" H 7775 5300 50  0001 C CNN
+	1    7775 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5F5AF00E
+P 8200 5300
+F 0 "C3" H 8085 5254 50  0000 R CNN
+F 1 "0.1µF" H 8085 5345 50  0000 R CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 8238 5150 50  0001 C CNN
+F 3 "~" H 8200 5300 50  0001 C CNN
+	1    8200 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5F5B07EE
+P 8625 5300
+F 0 "C4" H 8510 5254 50  0000 R CNN
+F 1 "0.1µF" H 8510 5345 50  0000 R CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 8663 5150 50  0001 C CNN
+F 3 "~" H 8625 5300 50  0001 C CNN
+	1    8625 5300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8625 5150 8200 5150
+Connection ~ 7350 5150
+Wire Wire Line
+	7350 5150 7250 5150
+Connection ~ 7775 5150
+Wire Wire Line
+	7775 5150 7350 5150
+Connection ~ 8200 5150
+Wire Wire Line
+	8200 5150 7775 5150
+Wire Wire Line
+	8625 5450 8200 5450
+Connection ~ 7350 5450
+Wire Wire Line
+	7350 5450 7250 5450
+Connection ~ 7775 5450
+Wire Wire Line
+	7775 5450 7350 5450
+Connection ~ 8200 5450
+Wire Wire Line
+	8200 5450 7775 5450
+$Comp
+L power:GND #PWR0102
+U 1 1 5F5B6745
+P 7250 5450
+F 0 "#PWR0102" H 7250 5200 50  0001 C CNN
+F 1 "GND" V 7255 5322 50  0000 R CNN
+F 2 "" H 7250 5450 50  0001 C CNN
+F 3 "" H 7250 5450 50  0001 C CNN
+	1    7250 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0103
+U 1 1 5F5B6A54
+P 7250 5150
+F 0 "#PWR0103" H 7250 5000 50  0001 C CNN
+F 1 "VCC" V 7268 5277 50  0000 L CNN
+F 2 "" H 7250 5150 50  0001 C CNN
+F 3 "" H 7250 5150 50  0001 C CNN
+	1    7250 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 P9
+U 1 1 5F47462B
+P 7950 850
+F 0 "P9" V 8050 850 50  0000 C CNN
+F 1 "CONN_01X01" V 8050 850 50  0001 C CNN
+F 2 "Socket_Arduino_Uno:Arduino_1pin" H 7950 850 20  0001 C CNN
+F 3 "" H 7950 850 50  0000 C CNN
+	1    7950 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 P10
+U 1 1 5F474631
+P 8050 850
+F 0 "P10" V 8150 850 50  0000 C CNN
+F 1 "CONN_01X01" V 8150 850 50  0001 C CNN
+F 2 "Socket_Arduino_Uno:Arduino_1pin" V 8050 850 20  0001 C CNN
+F 3 "" H 8050 850 50  0000 C CNN
+	1    8050 850 
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 7950 1050
+NoConn ~ 8050 1050
+Wire Bus Line
+	1725 2800 1725 4550
 $EndSCHEMATC

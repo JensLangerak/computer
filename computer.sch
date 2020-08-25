@@ -156,7 +156,7 @@ F3 "D_B[0..15]" I L 8050 3700 50
 F4 "S0" I R 9450 3600 50 
 F5 "S1" I R 9450 3700 50 
 F6 "D_OUT[0..15]" O L 8050 3850 50 
-F7 "~EO~" O R 9450 3850 50 
+F7 "~EO~" I R 9450 3850 50 
 $EndSheet
 Wire Bus Line
 	8050 3700 7550 3700
@@ -228,4 +228,70 @@ F6 "R~W~" I L 3875 4050 50
 F7 "E" I L 3875 4125 50 
 F8 "DI_~DO~" I L 3875 4200 50 
 $EndSheet
+$Sheet
+S 6275 5550 975  500 
+U 5F3E0C36
+F0 "control unit" 50
+F1 "control_unit/control_unit.sch" 50
+F2 "CLK" I L 6275 5600 50 
+F3 "FLG_[0..3]" I L 6275 5700 50 
+F4 "I_[0..15]" I L 6275 5800 50 
+F5 "IL_[0..3]" O R 7250 5625 50 
+F6 "IL_FL_[0..3]" I R 7250 5700 50 
+F7 "D_[8..11]" I R 7250 5800 50 
+$EndSheet
+Wire Bus Line
+	7250 5625 7375 5625
+Wire Bus Line
+	7375 5625 7375 5700
+Wire Bus Line
+	7375 5700 7250 5700
+Entry Wire Line
+	7550 5800 7650 5900
+Wire Wire Line
+	7650 6150 7725 6150
+Text Label 7650 6100 1    50   ~ 0
+D_8
+Entry Wire Line
+	7625 5800 7725 5900
+Text Label 7725 6100 1    50   ~ 0
+D_9
+Entry Wire Line
+	7700 5800 7800 5900
+Text Label 7800 6100 1    50   ~ 0
+D_10
+Entry Wire Line
+	7775 5800 7875 5900
+Text Label 7875 6100 1    50   ~ 0
+D_11
+Connection ~ 7725 6150
+Wire Wire Line
+	7725 6150 7800 6150
+Connection ~ 7800 6150
+Wire Wire Line
+	7800 6150 7875 6150
+Connection ~ 7875 6150
+Wire Wire Line
+	7875 6150 7950 6150
+$Comp
+L power:GND #PWR?
+U 1 1 5F3E45F1
+P 7950 6150
+F 0 "#PWR?" H 7950 5900 50  0001 C CNN
+F 1 "GND" V 7955 6022 50  0000 R CNN
+F 2 "" H 7950 6150 50  0001 C CNN
+F 3 "" H 7950 6150 50  0001 C CNN
+	1    7950 6150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7875 5900 7875 6150
+Wire Wire Line
+	7800 5900 7800 6150
+Wire Wire Line
+	7725 5900 7725 6150
+Wire Wire Line
+	7650 5900 7650 6150
+Wire Bus Line
+	7250 5800 7775 5800
 $EndSCHEMATC

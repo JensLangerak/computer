@@ -249,7 +249,7 @@ Wire Wire Line
 	4225 5100 3775 5100
 Wire Wire Line
 	3775 4800 4225 4800
-Text HLabel 6500 2350 0    50   Output ~ 0
+Text HLabel 6500 2350 0    50   Input ~ 0
 ~EO~
 Wire Wire Line
 	6500 2350 6775 2350
