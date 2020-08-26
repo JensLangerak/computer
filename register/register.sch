@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 29
+Sheet 3 36
 Title ""
 Date ""
 Rev ""
@@ -25,6 +25,7 @@ AR Path="/5D35BA95/5EC0552E" Ref="#PWR?"  Part="1"
 AR Path="/5D35CB6B/5EC0552E" Ref="#PWR?"  Part="1" 
 AR Path="/5EC0552E" Ref="#PWR?"  Part="1" 
 AR Path="/5EBAD929/5EC0552E" Ref="#PWR010"  Part="1" 
+AR Path="/5F46BEBE/5EC0552E" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 6850 4375 50  0001 C CNN
 F 1 "GND" V 6855 4497 50  0000 R CNN
 F 2 "" H 6850 4625 50  0001 C CNN
@@ -45,6 +46,7 @@ AR Path="/5D35BA95/5EC05535" Ref="#PWR?"  Part="1"
 AR Path="/5D35CB6B/5EC05535" Ref="#PWR?"  Part="1" 
 AR Path="/5EC05535" Ref="#PWR?"  Part="1" 
 AR Path="/5EBAD929/5EC05535" Ref="#PWR09"  Part="1" 
+AR Path="/5F46BEBE/5EC05535" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 6850 2425 50  0001 C CNN
 F 1 "GND" V 6855 2547 50  0000 R CNN
 F 2 "" H 6850 2675 50  0001 C CNN
@@ -65,6 +67,7 @@ AR Path="/5D35BA95/5EC0553C" Ref="#PWR?"  Part="1"
 AR Path="/5D35CB6B/5EC0553C" Ref="#PWR?"  Part="1" 
 AR Path="/5EC0553C" Ref="#PWR?"  Part="1" 
 AR Path="/5EBAD929/5EC0553C" Ref="#PWR08"  Part="1" 
+AR Path="/5F46BEBE/5EC0553C" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 6450 2875 50  0001 C CNN
 F 1 "VCC" V 6468 3152 50  0000 L CNN
 F 2 "" H 6450 3025 50  0001 C CNN
@@ -177,6 +180,7 @@ AR Path="/5D35BA95/5EC05572" Ref="U?"  Part="1"
 AR Path="/5D35CB6B/5EC05572" Ref="U?"  Part="1" 
 AR Path="/5EC05572" Ref="U?"  Part="1" 
 AR Path="/5EBAD929/5EC05572" Ref="U3"  Part="1" 
+AR Path="/5F46BEBE/5EC05572" Ref="U?"  Part="1" 
 F 0 "U?" H 6650 2856 50  0000 C CNN
 F 1 "74LS377" H 6650 2765 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm_LongPads" H 6650 1875 50  0001 C CNN
@@ -269,6 +273,7 @@ AR Path="/5D35BA95/5EC0559D" Ref="U?"  Part="1"
 AR Path="/5D35CB6B/5EC0559D" Ref="U?"  Part="1" 
 AR Path="/5EC0559D" Ref="U?"  Part="1" 
 AR Path="/5EBAD929/5EC0559D" Ref="U1"  Part="1" 
+AR Path="/5F46BEBE/5EC0559D" Ref="U?"  Part="1" 
 F 0 "U?" H 3150 5956 50  0000 C CNN
 F 1 "74LS244" H 3150 5865 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm_LongPads" H 3150 4975 50  0001 C CNN
@@ -287,6 +292,7 @@ AR Path="/5D35BA95/5EC055A3" Ref="U?"  Part="1"
 AR Path="/5D35CB6B/5EC055A3" Ref="U?"  Part="1" 
 AR Path="/5EC055A3" Ref="U?"  Part="1" 
 AR Path="/5EBAD929/5EC055A3" Ref="U2"  Part="1" 
+AR Path="/5F46BEBE/5EC055A3" Ref="U?"  Part="1" 
 F 0 "U?" V 4996 4131 50  0000 R CNN
 F 1 "74LS244" V 4905 4131 50  0000 R CNN
 F 2 "Package_DIP:DIP-20_W7.62mm_LongPads" H 4950 4975 50  0001 C CNN
@@ -319,6 +325,7 @@ AR Path="/5D35BA95/5EC055B1" Ref="#PWR?"  Part="1"
 AR Path="/5D35CB6B/5EC055B1" Ref="#PWR?"  Part="1" 
 AR Path="/5EC055B1" Ref="#PWR?"  Part="1" 
 AR Path="/5EBAD929/5EC055B1" Ref="#PWR04"  Part="1" 
+AR Path="/5F46BEBE/5EC055B1" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 3950 4925 50  0001 C CNN
 F 1 "GND" H 3955 5002 50  0000 C CNN
 F 2 "" H 3950 5175 50  0001 C CNN
@@ -337,6 +344,7 @@ AR Path="/5D35BA95/5EC055B7" Ref="#PWR?"  Part="1"
 AR Path="/5D35CB6B/5EC055B7" Ref="#PWR?"  Part="1" 
 AR Path="/5EC055B7" Ref="#PWR?"  Part="1" 
 AR Path="/5EBAD929/5EC055B7" Ref="#PWR06"  Part="1" 
+AR Path="/5F46BEBE/5EC055B7" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 5750 4925 50  0001 C CNN
 F 1 "GND" H 5755 5002 50  0000 C CNN
 F 2 "" H 5750 5175 50  0001 C CNN
@@ -359,6 +367,7 @@ AR Path="/5D35BA95/5EC055BF" Ref="#PWR?"  Part="1"
 AR Path="/5D35CB6B/5EC055BF" Ref="#PWR?"  Part="1" 
 AR Path="/5EC055BF" Ref="#PWR?"  Part="1" 
 AR Path="/5EBAD929/5EC055BF" Ref="#PWR05"  Part="1" 
+AR Path="/5F46BEBE/5EC055BF" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 4150 4625 50  0001 C CNN
 F 1 "VCC" H 4167 4948 50  0000 C CNN
 F 2 "" H 4150 4775 50  0001 C CNN
@@ -377,6 +386,7 @@ AR Path="/5D35BA95/5EC055C5" Ref="#PWR?"  Part="1"
 AR Path="/5D35CB6B/5EC055C5" Ref="#PWR?"  Part="1" 
 AR Path="/5EC055C5" Ref="#PWR?"  Part="1" 
 AR Path="/5EBAD929/5EC055C5" Ref="#PWR03"  Part="1" 
+AR Path="/5F46BEBE/5EC055C5" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 2350 4625 50  0001 C CNN
 F 1 "VCC" H 2367 4948 50  0000 C CNN
 F 2 "" H 2350 4775 50  0001 C CNN
@@ -532,6 +542,7 @@ AR Path="/5D35BA95/5EC0569C" Ref="#PWR?"  Part="1"
 AR Path="/5D35CB6B/5EC0569C" Ref="#PWR?"  Part="1" 
 AR Path="/5EC0569C" Ref="#PWR?"  Part="1" 
 AR Path="/5EBAD929/5EC0569C" Ref="#PWR07"  Part="1" 
+AR Path="/5F46BEBE/5EC0569C" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 6450 925 50  0001 C CNN
 F 1 "VCC" V 6468 1202 50  0000 L CNN
 F 2 "" H 6450 1075 50  0001 C CNN
@@ -551,6 +562,7 @@ AR Path="/5D35BA95/5EC056B8" Ref="R?"  Part="1"
 AR Path="/5D35CB6B/5EC056B8" Ref="R?"  Part="1" 
 AR Path="/5EC056B8" Ref="R?"  Part="1" 
 AR Path="/5EBAD929/5EC056B8" Ref="R2"  Part="1" 
+AR Path="/5F46BEBE/5EC056B8" Ref="R?"  Part="1" 
 F 0 "R?" V 10050 2475 50  0000 R CNN
 F 1 "5k" V 10125 2525 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10055 2450 50  0001 C CNN
@@ -570,6 +582,7 @@ AR Path="/5D35BA95/5EC056BE" Ref="R?"  Part="1"
 AR Path="/5D35CB6B/5EC056BE" Ref="R?"  Part="1" 
 AR Path="/5EC056BE" Ref="R?"  Part="1" 
 AR Path="/5EBAD929/5EC056BE" Ref="R3"  Part="1" 
+AR Path="/5F46BEBE/5EC056BE" Ref="R?"  Part="1" 
 F 0 "R?" V 10050 2650 50  0000 R CNN
 F 1 "5k" V 10125 2700 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10055 2625 50  0001 C CNN
@@ -589,6 +602,7 @@ AR Path="/5D35BA95/5EC056C4" Ref="R?"  Part="1"
 AR Path="/5D35CB6B/5EC056C4" Ref="R?"  Part="1" 
 AR Path="/5EC056C4" Ref="R?"  Part="1" 
 AR Path="/5EBAD929/5EC056C4" Ref="R4"  Part="1" 
+AR Path="/5F46BEBE/5EC056C4" Ref="R?"  Part="1" 
 F 0 "R?" V 10050 2825 50  0000 R CNN
 F 1 "5k" V 10125 2875 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10055 2800 50  0001 C CNN
@@ -608,6 +622,7 @@ AR Path="/5D35BA95/5EC056CA" Ref="R?"  Part="1"
 AR Path="/5D35CB6B/5EC056CA" Ref="R?"  Part="1" 
 AR Path="/5EC056CA" Ref="R?"  Part="1" 
 AR Path="/5EBAD929/5EC056CA" Ref="R5"  Part="1" 
+AR Path="/5F46BEBE/5EC056CA" Ref="R?"  Part="1" 
 F 0 "R?" V 10050 3000 50  0000 R CNN
 F 1 "5k" V 10125 3050 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10055 2975 50  0001 C CNN
@@ -627,6 +642,7 @@ AR Path="/5D35BA95/5EC056D0" Ref="R?"  Part="1"
 AR Path="/5D35CB6B/5EC056D0" Ref="R?"  Part="1" 
 AR Path="/5EC056D0" Ref="R?"  Part="1" 
 AR Path="/5EBAD929/5EC056D0" Ref="R6"  Part="1" 
+AR Path="/5F46BEBE/5EC056D0" Ref="R?"  Part="1" 
 F 0 "R?" V 10050 3175 50  0000 R CNN
 F 1 "5k" V 10125 3225 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10055 3150 50  0001 C CNN
@@ -646,6 +662,7 @@ AR Path="/5D35BA95/5EC056D6" Ref="R?"  Part="1"
 AR Path="/5D35CB6B/5EC056D6" Ref="R?"  Part="1" 
 AR Path="/5EC056D6" Ref="R?"  Part="1" 
 AR Path="/5EBAD929/5EC056D6" Ref="R7"  Part="1" 
+AR Path="/5F46BEBE/5EC056D6" Ref="R?"  Part="1" 
 F 0 "R?" V 10050 3350 50  0000 R CNN
 F 1 "5k" V 10125 3400 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10055 3325 50  0001 C CNN
@@ -665,6 +682,7 @@ AR Path="/5D35BA95/5EC056DC" Ref="R?"  Part="1"
 AR Path="/5D35CB6B/5EC056DC" Ref="R?"  Part="1" 
 AR Path="/5EC056DC" Ref="R?"  Part="1" 
 AR Path="/5EBAD929/5EC056DC" Ref="R8"  Part="1" 
+AR Path="/5F46BEBE/5EC056DC" Ref="R?"  Part="1" 
 F 0 "R?" V 10050 3525 50  0000 R CNN
 F 1 "5k" V 10125 3575 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10055 3500 50  0001 C CNN
@@ -684,6 +702,7 @@ AR Path="/5D35BA95/5EC056E2" Ref="R?"  Part="1"
 AR Path="/5D35CB6B/5EC056E2" Ref="R?"  Part="1" 
 AR Path="/5EC056E2" Ref="R?"  Part="1" 
 AR Path="/5EBAD929/5EC056E2" Ref="R9"  Part="1" 
+AR Path="/5F46BEBE/5EC056E2" Ref="R?"  Part="1" 
 F 0 "R?" V 10050 3725 50  0000 R CNN
 F 1 "5k" V 10125 3775 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10055 3700 50  0001 C CNN
@@ -703,6 +722,7 @@ AR Path="/5D35BA95/5EC056E8" Ref="R?"  Part="1"
 AR Path="/5D35CB6B/5EC056E8" Ref="R?"  Part="1" 
 AR Path="/5EC056E8" Ref="R?"  Part="1" 
 AR Path="/5EBAD929/5EC056E8" Ref="R10"  Part="1" 
+AR Path="/5F46BEBE/5EC056E8" Ref="R?"  Part="1" 
 F 0 "R?" V 10050 3900 50  0000 R CNN
 F 1 "5k" V 10125 3950 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10055 3875 50  0001 C CNN
@@ -722,6 +742,7 @@ AR Path="/5D35BA95/5EC056EE" Ref="R?"  Part="1"
 AR Path="/5D35CB6B/5EC056EE" Ref="R?"  Part="1" 
 AR Path="/5EC056EE" Ref="R?"  Part="1" 
 AR Path="/5EBAD929/5EC056EE" Ref="R11"  Part="1" 
+AR Path="/5F46BEBE/5EC056EE" Ref="R?"  Part="1" 
 F 0 "R?" V 10050 4075 50  0000 R CNN
 F 1 "5k" V 10125 4125 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10055 4050 50  0001 C CNN
@@ -741,6 +762,7 @@ AR Path="/5D35BA95/5EC056F4" Ref="R?"  Part="1"
 AR Path="/5D35CB6B/5EC056F4" Ref="R?"  Part="1" 
 AR Path="/5EC056F4" Ref="R?"  Part="1" 
 AR Path="/5EBAD929/5EC056F4" Ref="R12"  Part="1" 
+AR Path="/5F46BEBE/5EC056F4" Ref="R?"  Part="1" 
 F 0 "R?" V 10050 4250 50  0000 R CNN
 F 1 "5k" V 10125 4300 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10055 4225 50  0001 C CNN
@@ -760,6 +782,7 @@ AR Path="/5D35BA95/5EC056FA" Ref="R?"  Part="1"
 AR Path="/5D35CB6B/5EC056FA" Ref="R?"  Part="1" 
 AR Path="/5EC056FA" Ref="R?"  Part="1" 
 AR Path="/5EBAD929/5EC056FA" Ref="R13"  Part="1" 
+AR Path="/5F46BEBE/5EC056FA" Ref="R?"  Part="1" 
 F 0 "R?" V 10050 4425 50  0000 R CNN
 F 1 "5k" V 10125 4475 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10055 4400 50  0001 C CNN
@@ -779,6 +802,7 @@ AR Path="/5D35BA95/5EC05700" Ref="R?"  Part="1"
 AR Path="/5D35CB6B/5EC05700" Ref="R?"  Part="1" 
 AR Path="/5EC05700" Ref="R?"  Part="1" 
 AR Path="/5EBAD929/5EC05700" Ref="R14"  Part="1" 
+AR Path="/5F46BEBE/5EC05700" Ref="R?"  Part="1" 
 F 0 "R?" V 10050 4600 50  0000 R CNN
 F 1 "5k" V 10125 4650 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10055 4575 50  0001 C CNN
@@ -798,6 +822,7 @@ AR Path="/5D35BA95/5EC05706" Ref="R?"  Part="1"
 AR Path="/5D35CB6B/5EC05706" Ref="R?"  Part="1" 
 AR Path="/5EC05706" Ref="R?"  Part="1" 
 AR Path="/5EBAD929/5EC05706" Ref="R15"  Part="1" 
+AR Path="/5F46BEBE/5EC05706" Ref="R?"  Part="1" 
 F 0 "R?" V 10050 4775 50  0000 R CNN
 F 1 "5k" V 10125 4825 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10055 4750 50  0001 C CNN
@@ -817,6 +842,7 @@ AR Path="/5D35BA95/5EC0570C" Ref="R?"  Part="1"
 AR Path="/5D35CB6B/5EC0570C" Ref="R?"  Part="1" 
 AR Path="/5EC0570C" Ref="R?"  Part="1" 
 AR Path="/5EBAD929/5EC0570C" Ref="R16"  Part="1" 
+AR Path="/5F46BEBE/5EC0570C" Ref="R?"  Part="1" 
 F 0 "R?" V 10050 4950 50  0000 R CNN
 F 1 "5k" V 10125 5000 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10055 4925 50  0001 C CNN
@@ -835,6 +861,7 @@ AR Path="/5D35BA95/5EC05712" Ref="D?"  Part="1"
 AR Path="/5D35CB6B/5EC05712" Ref="D?"  Part="1" 
 AR Path="/5EC05712" Ref="D?"  Part="1" 
 AR Path="/5EBAD929/5EC05712" Ref="D16"  Part="1" 
+AR Path="/5F46BEBE/5EC05712" Ref="D?"  Part="1" 
 F 0 "D?" H 9625 4850 50  0000 C CNN
 F 1 "LED_ALT" H 9425 4975 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 9625 4925 50  0001 C CNN
@@ -853,6 +880,7 @@ AR Path="/5D35BA95/5EC05718" Ref="D?"  Part="1"
 AR Path="/5D35CB6B/5EC05718" Ref="D?"  Part="1" 
 AR Path="/5EC05718" Ref="D?"  Part="1" 
 AR Path="/5EBAD929/5EC05718" Ref="D15"  Part="1" 
+AR Path="/5F46BEBE/5EC05718" Ref="D?"  Part="1" 
 F 0 "D?" H 9625 4675 50  0000 C CNN
 F 1 "LED_ALT" H 9425 4800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 9625 4750 50  0001 C CNN
@@ -871,6 +899,7 @@ AR Path="/5D35BA95/5EC0571E" Ref="D?"  Part="1"
 AR Path="/5D35CB6B/5EC0571E" Ref="D?"  Part="1" 
 AR Path="/5EC0571E" Ref="D?"  Part="1" 
 AR Path="/5EBAD929/5EC0571E" Ref="D14"  Part="1" 
+AR Path="/5F46BEBE/5EC0571E" Ref="D?"  Part="1" 
 F 0 "D?" H 9625 4500 50  0000 C CNN
 F 1 "LED_ALT" H 9425 4625 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 9625 4575 50  0001 C CNN
@@ -889,6 +918,7 @@ AR Path="/5D35BA95/5EC05724" Ref="D?"  Part="1"
 AR Path="/5D35CB6B/5EC05724" Ref="D?"  Part="1" 
 AR Path="/5EC05724" Ref="D?"  Part="1" 
 AR Path="/5EBAD929/5EC05724" Ref="D13"  Part="1" 
+AR Path="/5F46BEBE/5EC05724" Ref="D?"  Part="1" 
 F 0 "D?" H 9625 4325 50  0000 C CNN
 F 1 "LED_ALT" H 9425 4450 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 9625 4400 50  0001 C CNN
@@ -907,6 +937,7 @@ AR Path="/5D35BA95/5EC0572A" Ref="D?"  Part="1"
 AR Path="/5D35CB6B/5EC0572A" Ref="D?"  Part="1" 
 AR Path="/5EC0572A" Ref="D?"  Part="1" 
 AR Path="/5EBAD929/5EC0572A" Ref="D12"  Part="1" 
+AR Path="/5F46BEBE/5EC0572A" Ref="D?"  Part="1" 
 F 0 "D?" H 9625 4150 50  0000 C CNN
 F 1 "LED_ALT" H 9425 4275 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 9625 4225 50  0001 C CNN
@@ -925,6 +956,7 @@ AR Path="/5D35BA95/5EC05730" Ref="D?"  Part="1"
 AR Path="/5D35CB6B/5EC05730" Ref="D?"  Part="1" 
 AR Path="/5EC05730" Ref="D?"  Part="1" 
 AR Path="/5EBAD929/5EC05730" Ref="D11"  Part="1" 
+AR Path="/5F46BEBE/5EC05730" Ref="D?"  Part="1" 
 F 0 "D?" H 9625 3975 50  0000 C CNN
 F 1 "LED_ALT" H 9425 4100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 9625 4050 50  0001 C CNN
@@ -943,6 +975,7 @@ AR Path="/5D35BA95/5EC05736" Ref="D?"  Part="1"
 AR Path="/5D35CB6B/5EC05736" Ref="D?"  Part="1" 
 AR Path="/5EC05736" Ref="D?"  Part="1" 
 AR Path="/5EBAD929/5EC05736" Ref="D10"  Part="1" 
+AR Path="/5F46BEBE/5EC05736" Ref="D?"  Part="1" 
 F 0 "D?" H 9625 3800 50  0000 C CNN
 F 1 "LED_ALT" H 9425 3925 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 9625 3875 50  0001 C CNN
@@ -961,6 +994,7 @@ AR Path="/5D35BA95/5EC0573C" Ref="D?"  Part="1"
 AR Path="/5D35CB6B/5EC0573C" Ref="D?"  Part="1" 
 AR Path="/5EC0573C" Ref="D?"  Part="1" 
 AR Path="/5EBAD929/5EC0573C" Ref="D9"  Part="1" 
+AR Path="/5F46BEBE/5EC0573C" Ref="D?"  Part="1" 
 F 0 "D?" H 9625 3625 50  0000 C CNN
 F 1 "LED_ALT" H 9425 3750 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 9625 3700 50  0001 C CNN
@@ -979,6 +1013,7 @@ AR Path="/5D35BA95/5EC05742" Ref="D?"  Part="1"
 AR Path="/5D35CB6B/5EC05742" Ref="D?"  Part="1" 
 AR Path="/5EC05742" Ref="D?"  Part="1" 
 AR Path="/5EBAD929/5EC05742" Ref="D8"  Part="1" 
+AR Path="/5F46BEBE/5EC05742" Ref="D?"  Part="1" 
 F 0 "D?" H 9625 3425 50  0000 C CNN
 F 1 "LED_ALT" H 9425 3550 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 9625 3500 50  0001 C CNN
@@ -997,6 +1032,7 @@ AR Path="/5D35BA95/5EC05748" Ref="D?"  Part="1"
 AR Path="/5D35CB6B/5EC05748" Ref="D?"  Part="1" 
 AR Path="/5EC05748" Ref="D?"  Part="1" 
 AR Path="/5EBAD929/5EC05748" Ref="D7"  Part="1" 
+AR Path="/5F46BEBE/5EC05748" Ref="D?"  Part="1" 
 F 0 "D?" H 9625 3250 50  0000 C CNN
 F 1 "LED_ALT" H 9425 3375 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 9625 3325 50  0001 C CNN
@@ -1015,6 +1051,7 @@ AR Path="/5D35BA95/5EC0574E" Ref="D?"  Part="1"
 AR Path="/5D35CB6B/5EC0574E" Ref="D?"  Part="1" 
 AR Path="/5EC0574E" Ref="D?"  Part="1" 
 AR Path="/5EBAD929/5EC0574E" Ref="D6"  Part="1" 
+AR Path="/5F46BEBE/5EC0574E" Ref="D?"  Part="1" 
 F 0 "D?" H 9625 3075 50  0000 C CNN
 F 1 "LED_ALT" H 9425 3200 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 9625 3150 50  0001 C CNN
@@ -1033,6 +1070,7 @@ AR Path="/5D35BA95/5EC05754" Ref="D?"  Part="1"
 AR Path="/5D35CB6B/5EC05754" Ref="D?"  Part="1" 
 AR Path="/5EC05754" Ref="D?"  Part="1" 
 AR Path="/5EBAD929/5EC05754" Ref="D5"  Part="1" 
+AR Path="/5F46BEBE/5EC05754" Ref="D?"  Part="1" 
 F 0 "D?" H 9625 2900 50  0000 C CNN
 F 1 "LED_ALT" H 9425 3025 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 9625 2975 50  0001 C CNN
@@ -1051,6 +1089,7 @@ AR Path="/5D35BA95/5EC0575A" Ref="D?"  Part="1"
 AR Path="/5D35CB6B/5EC0575A" Ref="D?"  Part="1" 
 AR Path="/5EC0575A" Ref="D?"  Part="1" 
 AR Path="/5EBAD929/5EC0575A" Ref="D4"  Part="1" 
+AR Path="/5F46BEBE/5EC0575A" Ref="D?"  Part="1" 
 F 0 "D?" H 9625 2725 50  0000 C CNN
 F 1 "LED_ALT" H 9425 2850 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 9625 2800 50  0001 C CNN
@@ -1069,6 +1108,7 @@ AR Path="/5D35BA95/5EC05760" Ref="D?"  Part="1"
 AR Path="/5D35CB6B/5EC05760" Ref="D?"  Part="1" 
 AR Path="/5EC05760" Ref="D?"  Part="1" 
 AR Path="/5EBAD929/5EC05760" Ref="D3"  Part="1" 
+AR Path="/5F46BEBE/5EC05760" Ref="D?"  Part="1" 
 F 0 "D?" H 9625 2550 50  0000 C CNN
 F 1 "LED_ALT" H 9425 2675 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 9625 2625 50  0001 C CNN
@@ -1087,6 +1127,7 @@ AR Path="/5D35BA95/5EC05766" Ref="D?"  Part="1"
 AR Path="/5D35CB6B/5EC05766" Ref="D?"  Part="1" 
 AR Path="/5EC05766" Ref="D?"  Part="1" 
 AR Path="/5EBAD929/5EC05766" Ref="D2"  Part="1" 
+AR Path="/5F46BEBE/5EC05766" Ref="D?"  Part="1" 
 F 0 "D?" H 9625 2375 50  0000 C CNN
 F 1 "LED_ALT" H 9425 2500 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 9625 2450 50  0001 C CNN
@@ -1105,6 +1146,7 @@ AR Path="/5D35BA95/5EC0576C" Ref="D?"  Part="1"
 AR Path="/5D35CB6B/5EC0576C" Ref="D?"  Part="1" 
 AR Path="/5EC0576C" Ref="D?"  Part="1" 
 AR Path="/5EBAD929/5EC0576C" Ref="D1"  Part="1" 
+AR Path="/5F46BEBE/5EC0576C" Ref="D?"  Part="1" 
 F 0 "D?" H 9625 2200 50  0000 C CNN
 F 1 "LED_ALT" H 9425 2325 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 9625 2275 50  0001 C CNN
@@ -1443,6 +1485,7 @@ AR Path="/5D35BA95/5EC0582D" Ref="R?"  Part="1"
 AR Path="/5D35CB6B/5EC0582D" Ref="R?"  Part="1" 
 AR Path="/5EC0582D" Ref="R?"  Part="1" 
 AR Path="/5EBAD929/5EC0582D" Ref="R1"  Part="1" 
+AR Path="/5F46BEBE/5EC0582D" Ref="R?"  Part="1" 
 F 0 "R?" V 10050 2300 50  0000 R CNN
 F 1 "5k" V 10125 2350 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10055 2275 50  0001 C CNN
@@ -1461,6 +1504,7 @@ AR Path="/5D35BA95/5EC05833" Ref="#PWR?"  Part="1"
 AR Path="/5D35CB6B/5EC05833" Ref="#PWR?"  Part="1" 
 AR Path="/5EC05833" Ref="#PWR?"  Part="1" 
 AR Path="/5EBAD929/5EC05833" Ref="#PWR011"  Part="1" 
+AR Path="/5F46BEBE/5EC05833" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 10550 4875 50  0001 C CNN
 F 1 "GND" H 10555 4952 50  0000 C CNN
 F 2 "" H 10550 5125 50  0001 C CNN
@@ -1556,7 +1600,8 @@ AR Path="/5EBAD929/5EC05868" Ref="C1"  Part="1"
 AR Path="/5D3716A7/5EC05868" Ref="C1"  Part="1" 
 AR Path="/5D35CB6B/5EC05868" Ref="C1"  Part="1" 
 AR Path="/5D737E0E/5EC05868" Ref="C1"  Part="1" 
-F 0 "C1" V 2177 6825 50  0000 C CNN
+AR Path="/5F46BEBE/5EC05868" Ref="C?"  Part="1" 
+F 0 "C?" V 2177 6825 50  0000 C CNN
 F 1 "0.1µF" V 2086 6825 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 1963 6675 50  0001 C CNN
 F 3 "~" H 1925 6825 50  0001 C CNN
@@ -1572,7 +1617,8 @@ AR Path="/5EBAD929/5EC0586E" Ref="#PWR01"  Part="1"
 AR Path="/5D3716A7/5EC0586E" Ref="#PWR01"  Part="1" 
 AR Path="/5D35CB6B/5EC0586E" Ref="#PWR01"  Part="1" 
 AR Path="/5D737E0E/5EC0586E" Ref="#PWR01"  Part="1" 
-F 0 "#PWR01" H 1675 6675 50  0001 C CNN
+AR Path="/5F46BEBE/5EC0586E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1675 6675 50  0001 C CNN
 F 1 "VCC" V 1693 6952 50  0000 L CNN
 F 2 "" H 1675 6825 50  0001 C CNN
 F 3 "" H 1675 6825 50  0001 C CNN
@@ -1590,7 +1636,8 @@ AR Path="/5EBAD929/5EC05875" Ref="#PWR02"  Part="1"
 AR Path="/5D3716A7/5EC05875" Ref="#PWR02"  Part="1" 
 AR Path="/5D35CB6B/5EC05875" Ref="#PWR02"  Part="1" 
 AR Path="/5D737E0E/5EC05875" Ref="#PWR02"  Part="1" 
-F 0 "#PWR02" H 2175 6575 50  0001 C CNN
+AR Path="/5F46BEBE/5EC05875" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2175 6575 50  0001 C CNN
 F 1 "GND" V 2180 6697 50  0000 R CNN
 F 2 "" H 2175 6825 50  0001 C CNN
 F 3 "" H 2175 6825 50  0001 C CNN
@@ -1606,7 +1653,8 @@ AR Path="/5EBAD929/5EC0587B" Ref="C2"  Part="1"
 AR Path="/5D3716A7/5EC0587B" Ref="C2"  Part="1" 
 AR Path="/5D35CB6B/5EC0587B" Ref="C2"  Part="1" 
 AR Path="/5D737E0E/5EC0587B" Ref="C2"  Part="1" 
-F 0 "C2" V 2177 7300 50  0000 C CNN
+AR Path="/5F46BEBE/5EC0587B" Ref="C?"  Part="1" 
+F 0 "C?" V 2177 7300 50  0000 C CNN
 F 1 "0.1µF" V 2086 7300 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 1963 7150 50  0001 C CNN
 F 3 "~" H 1925 7300 50  0001 C CNN
@@ -1632,6 +1680,7 @@ AR Path="/5D35BA95/5EC05887" Ref="U?"  Part="1"
 AR Path="/5D35CB6B/5EC05887" Ref="U?"  Part="1" 
 AR Path="/5EC05887" Ref="U?"  Part="1" 
 AR Path="/5EBAD929/5EC05887" Ref="U4"  Part="1" 
+AR Path="/5F46BEBE/5EC05887" Ref="U?"  Part="1" 
 F 0 "U?" H 6650 4806 50  0000 C CNN
 F 1 "74LS377" H 6650 4715 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm_LongPads" H 6650 3825 50  0001 C CNN
