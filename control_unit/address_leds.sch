@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:computer-cache
+LIBS:control_unit_pcb-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 36
+Sheet 6 10
 Title ""
 Date ""
 Rev ""

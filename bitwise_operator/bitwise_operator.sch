@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:computer-cache
+LIBS:bitwise_operator_pcb-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 36
+Sheet 2 13
 Title ""
 Date ""
 Rev ""
@@ -160,10 +160,10 @@ D_OUT[0..15]
 Text Label 7950 2225 0    50   ~ 0
 D_OUT[0..15]
 $Comp
-L Device:C C?
+L Device:C C1
 U 1 1 5F637C21
 P 2425 4950
-F 0 "C?" H 2540 4996 50  0000 L CNN
+F 0 "C1" H 2540 4996 50  0000 L CNN
 F 1 "0.1µF" H 2540 4905 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 2463 4800 50  0001 C CNN
 F 3 "~" H 2425 4950 50  0001 C CNN
@@ -171,10 +171,10 @@ F 3 "~" H 2425 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C2
 U 1 1 5F63A4EB
 P 2875 4950
-F 0 "C?" H 2990 4996 50  0000 L CNN
+F 0 "C2" H 2990 4996 50  0000 L CNN
 F 1 "0.1µF" H 2990 4905 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 2913 4800 50  0001 C CNN
 F 3 "~" H 2875 4950 50  0001 C CNN
@@ -189,10 +189,10 @@ Wire Wire Line
 	2425 4800 2225 4800
 Connection ~ 2425 4800
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR01
 U 1 1 5F63B418
 P 2225 4800
-F 0 "#PWR?" H 2225 4650 50  0001 C CNN
+F 0 "#PWR01" H 2225 4650 50  0001 C CNN
 F 1 "VCC" V 2243 4927 50  0000 L CNN
 F 2 "" H 2225 4800 50  0001 C CNN
 F 3 "" H 2225 4800 50  0001 C CNN
@@ -203,10 +203,10 @@ Wire Wire Line
 	2425 5100 2225 5100
 Connection ~ 2425 5100
 $Comp
-L power:GND #PWR?
+L power:GND #PWR02
 U 1 1 5F63BA5A
 P 2225 5100
-F 0 "#PWR?" H 2225 4850 50  0001 C CNN
+F 0 "#PWR02" H 2225 4850 50  0001 C CNN
 F 1 "GND" V 2230 4972 50  0000 R CNN
 F 2 "" H 2225 5100 50  0001 C CNN
 F 3 "" H 2225 5100 50  0001 C CNN
@@ -216,10 +216,10 @@ $EndComp
 Text Notes 2425 4575 0    50   ~ 0
 25 x 74LSxx\n6-8 * 0.1µF
 $Comp
-L Device:C C?
+L Device:C C3
 U 1 1 5F63F8F0
 P 3325 4950
-F 0 "C?" H 3440 4996 50  0000 L CNN
+F 0 "C3" H 3440 4996 50  0000 L CNN
 F 1 "0.1µF" H 3440 4905 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 3363 4800 50  0001 C CNN
 F 3 "~" H 3325 4950 50  0001 C CNN
@@ -231,10 +231,10 @@ Wire Wire Line
 Wire Wire Line
 	2875 4800 3325 4800
 $Comp
-L Device:C C?
+L Device:C C4
 U 1 1 5F6403F6
 P 3775 4950
-F 0 "C?" H 3890 4996 50  0000 L CNN
+F 0 "C4" H 3890 4996 50  0000 L CNN
 F 1 "0.1µF" H 3890 4905 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 3813 4800 50  0001 C CNN
 F 3 "~" H 3775 4950 50  0001 C CNN
@@ -245,10 +245,6 @@ Wire Wire Line
 	3775 5100 3325 5100
 Wire Wire Line
 	3325 4800 3775 4800
-Wire Wire Line
-	4225 5100 3775 5100
-Wire Wire Line
-	3775 4800 4225 4800
 Text HLabel 6500 2350 0    50   Input ~ 0
 ~EO~
 Wire Wire Line
@@ -267,10 +263,10 @@ F7 "D_B[0..15]" I L 4925 1775 50
 F8 "D_A[0..15]" I L 4925 1975 50 
 $EndSheet
 $Comp
-L Device:C C?
+L Device:C C5
 U 1 1 5F26F574
 P 4225 4950
-F 0 "C?" H 4340 4996 50  0000 L CNN
+F 0 "C5" H 4340 4996 50  0000 L CNN
 F 1 "0.1µF" H 4340 4905 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4263 4800 50  0001 C CNN
 F 3 "~" H 4225 4950 50  0001 C CNN
@@ -278,10 +274,10 @@ F 3 "~" H 4225 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C6
 U 1 1 5F26F57A
 P 4675 4950
-F 0 "C?" H 4790 4996 50  0000 L CNN
+F 0 "C6" H 4790 4996 50  0000 L CNN
 F 1 "0.1µF" H 4790 4905 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4713 4800 50  0001 C CNN
 F 3 "~" H 4675 4950 50  0001 C CNN
@@ -292,17 +288,12 @@ Wire Wire Line
 	4675 5100 4225 5100
 Wire Wire Line
 	4225 4800 4675 4800
-Wire Wire Line
-	4225 4800 4025 4800
 Connection ~ 4225 4800
-Wire Wire Line
-	4225 5100 4025 5100
-Connection ~ 4225 5100
 $Comp
-L Device:C C?
+L Device:C C7
 U 1 1 5F26F586
 P 5125 4950
-F 0 "C?" H 5240 4996 50  0000 L CNN
+F 0 "C7" H 5240 4996 50  0000 L CNN
 F 1 "0.1µF" H 5240 4905 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 5163 4800 50  0001 C CNN
 F 3 "~" H 5125 4950 50  0001 C CNN
@@ -314,10 +305,10 @@ Wire Wire Line
 Wire Wire Line
 	4675 4800 5125 4800
 $Comp
-L Device:C C?
+L Device:C C8
 U 1 1 5F26F58E
 P 5575 4950
-F 0 "C?" H 5690 4996 50  0000 L CNN
+F 0 "C8" H 5690 4996 50  0000 L CNN
 F 1 "0.1µF" H 5690 4905 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 5613 4800 50  0001 C CNN
 F 3 "~" H 5575 4950 50  0001 C CNN
@@ -333,14 +324,48 @@ Wire Wire Line
 Wire Wire Line
 	5575 4800 6025 4800
 $Comp
-L Device:C C?
+L Device:C C9
 U 1 1 5F26FFBA
 P 6025 4950
-F 0 "C?" H 6140 4996 50  0000 L CNN
+F 0 "C9" H 6140 4996 50  0000 L CNN
 F 1 "0.1µF" H 6140 4905 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 6063 4800 50  0001 C CNN
 F 3 "~" H 6025 4950 50  0001 C CNN
 	1    6025 4950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3775 4800 4225 4800
+Connection ~ 3775 4800
+Wire Wire Line
+	3775 5100 4225 5100
+Connection ~ 3775 5100
+Connection ~ 4225 5100
+Connection ~ 4675 5100
+Connection ~ 4675 4800
+Connection ~ 5125 4800
+Connection ~ 5125 5100
+Connection ~ 5575 5100
+Connection ~ 5575 4800
+Connection ~ 3325 4800
+Connection ~ 3325 5100
+Connection ~ 2875 5100
+Connection ~ 2875 4800
+Wire Wire Line
+	6475 5100 6025 5100
+Wire Wire Line
+	6025 4800 6475 4800
+$Comp
+L Device:C C10
+U 1 1 5F48B5C2
+P 6475 4950
+F 0 "C10" H 6590 4996 50  0000 L CNN
+F 1 "0.1µF" H 6590 4905 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 6513 4800 50  0001 C CNN
+F 3 "~" H 6475 4950 50  0001 C CNN
+	1    6475 4950
+	1    0    0    -1  
+$EndComp
+Connection ~ 6025 4800
+Connection ~ 6025 5100
 $EndSCHEMATC

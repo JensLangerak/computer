@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:computer-cache
+LIBS:memory_pcb-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 36
+Sheet 2 7
 Title ""
 Date ""
 Rev ""
@@ -605,10 +605,10 @@ Wire Wire Line
 Wire Wire Line
 	9900 3925 10000 3925
 Connection ~ 9900 3925
+Text Label 4650 6350 0    50   ~ 0
+D[0..15]
 Wire Bus Line
 	1175 650  3625 650 
 Wire Bus Line
 	2950 6350 8450 6350
-Text Label 4650 6350 0    50   ~ 0
-D[0..15]
 $EndSCHEMATC
