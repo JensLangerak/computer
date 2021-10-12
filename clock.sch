@@ -865,4 +865,6 @@ Text HLabel 8700 4200 2    50   Output ~ 0
 ~CLK~
 Text HLabel 4800 5150 0    50   Input ~ 0
 HLT_CLK
+Text Notes 5125 3225 0    50   ~ 0
+TODO update with actual circuit
 $EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 36
+Sheet 6 36
 Title ""
 Date ""
 Rev ""
@@ -535,10 +535,6 @@ F 3 "" H 3625 5000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4625 3425 4625 3875
-Wire Bus Line
-	1150 1225 10475 1225
-Wire Bus Line
-	1225 2925 10775 2925
 Connection ~ 4625 3875
 Wire Wire Line
 	4625 3875 4625 4325
@@ -559,4 +555,10 @@ F 3 "" H 4625 5000 50  0001 C CNN
 	1    4625 5000
 	-1   0    0    1   
 $EndComp
+Wire Bus Line
+	1150 1225 10475 1225
+Wire Bus Line
+	1225 2925 10775 2925
+Text Notes 5775 3175 0    50   ~ 0
+TODO replace 386 with 86
 $EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 36
+Sheet 5 36
 Title ""
 Date ""
 Rev ""
@@ -193,7 +193,7 @@ AR Path="/5D371796/5D35EAC6" Ref="U?"  Part="1"
 AR Path="/5D737E0E/5D35EAC6" Ref="U?"  Part="1" 
 AR Path="/5D3352E4/5D35EAC6" Ref="U?"  Part="1" 
 AR Path="/5EBD9EFC/5D35EAC6" Ref="U3"  Part="1" 
-F 0 "U3" H 4600 6256 50  0000 C CNN
+F 0 "U?" H 4600 6256 50  0000 C CNN
 F 1 "74LS244" H 4600 6165 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm_LongPads" H 4600 5275 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS244" H 4600 5275 50  0001 C CNN
@@ -209,7 +209,7 @@ AR Path="/5D371796/5D35F107" Ref="U?"  Part="1"
 AR Path="/5D737E0E/5D35F107" Ref="U?"  Part="1" 
 AR Path="/5D3352E4/5D35F107" Ref="U?"  Part="1" 
 AR Path="/5EBD9EFC/5D35F107" Ref="U5"  Part="1" 
-F 0 "U5" H 6600 6256 50  0000 C CNN
+F 0 "U?" H 6600 6256 50  0000 C CNN
 F 1 "74LS244" H 6600 6165 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm_LongPads" H 6600 5275 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS244" H 6600 5275 50  0001 C CNN

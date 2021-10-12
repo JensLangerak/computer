@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 36
+Sheet 7 36
 Title ""
 Date ""
 Rev ""
@@ -445,8 +445,6 @@ F 3 "" H 5350 6750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6350 4600 6350 5050
-Wire Bus Line
-	1150 1325 6225 1325
 Connection ~ 6350 5050
 Wire Wire Line
 	6350 5050 6350 5500
@@ -525,4 +523,6 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 2375 5075 50  0001 C CNN
 	1    2375 5075
 	-1   0    0    -1  
 $EndComp
+Wire Bus Line
+	1150 1325 6225 1325
 $EndSCHEMATC

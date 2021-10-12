@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:control_unit_pcb-cache
+LIBS:computer-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 10
+Sheet 30 36
 Title ""
 Date ""
 Rev ""
@@ -715,6 +715,7 @@ AR Path="/5F3AC91A/5F40061F/5F51CB08" Ref="D?"  Part="1"
 AR Path="/5F3AC91A/5F406922/5F51CB08" Ref="D?"  Part="1" 
 AR Path="/5F3AC91A/5F40FFCA/5F51CB08" Ref="D?"  Part="1" 
 AR Path="/5F3AC91A/5F51CB08" Ref="D1"  Part="1" 
+AR Path="/5F3E0C36/5F51CB08" Ref="D1"  Part="1" 
 F 0 "D1" H 7775 2500 50  0000 C CNN
 F 1 "LED_ALT" H 7575 2625 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 7775 2575 50  0001 C CNN
@@ -745,6 +746,7 @@ AR Path="/5F3AC91A/5F40061F/5F51CB0E" Ref="R?"  Part="1"
 AR Path="/5F3AC91A/5F406922/5F51CB0E" Ref="R?"  Part="1" 
 AR Path="/5F3AC91A/5F40FFCA/5F51CB0E" Ref="R?"  Part="1" 
 AR Path="/5F3AC91A/5F51CB0E" Ref="R2"  Part="1" 
+AR Path="/5F3E0C36/5F51CB0E" Ref="R2"  Part="1" 
 F 0 "R2" V 7700 2100 50  0000 R CNN
 F 1 "5k" V 7775 2150 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7705 2075 50  0001 C CNN

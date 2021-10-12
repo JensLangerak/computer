@@ -1,0 +1,26 @@
+SST39SF010A-70-4C-PHE   fastest read, 16 in, 8 out
+		- combine with ls153
+		
+
+AT28C256-15PU 
+
+Owon RDS1021 pen oscilloscoop
+
+https://nl.mouser.com/ProductDetail/Newhaven-Display/NHD-C12864LZ-FSW-FBW-3V3?qs=xC%2FmLSNw6GFURwQSMOOaOQ%3D%3D
+https://nl.mouser.com/ProductDetail/Newhaven-Display/NHD-C12864B2Z-RN-FBW?qs=Vb5qD4CGh4n8YOaLwc7OHQ%3D%3D
+https://www.reichelt.nl/lcd-dip-grafische-module-128-x-64-punten-lcd-128sw-dip-p53971.html?&trstct=pol_6&nbc=1
+https://www.reichelt.nl/grafisch-lcd-scherm-128x64-pixels-zw-wt-m-verl-lcd-128x64bk-ac-p197558.html?&trstct=pol_8&nbc=1
+https://nl.mouser.com/ProductDetail/Newhaven-Display/NHD-C12864GG-RN-GBW?qs=jAHslVI6snuT2SwKL81Irw%3D%3D
+
+FFC / FPC zif connector
+
+
+
+https://nl.mouser.com/ProductDetail/Newhaven-Display/NHD-C12864LZ-FSW-FBW-3V3?qs=xC%2FmLSNw6GFURwQSMOOaOQ%3D%3D
+
+MKP4-250 ? of mks probeer allebij 
+
+0.3 mm pwr trace
+0.5 a
+
+all unused inputs MUST be connected to the supply

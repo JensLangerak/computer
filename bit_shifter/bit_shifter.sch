@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:bit_shifter_pcb-cache
+LIBS:computer-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 26 36
 Title ""
 Date ""
 Rev ""
@@ -637,4 +637,8 @@ Wire Bus Line
 	2350 4025 7675 4025
 Wire Bus Line
 	1850 1325 9375 1325
+Text Notes 9775 2450 0    50   ~ 0
+TODO ground?
+Text Notes 3150 2375 0    50   ~ 0
+TODO ground?
 $EndSCHEMATC
